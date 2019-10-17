@@ -1,0 +1,16 @@
+﻿  Creating makefile for NoNameProjectEditor (ini files are newer than makefile)
+  Parsing headers for NoNameProjectEditor
+    Running UnrealHeaderTool "C:\Users\ALUMNO\Documents\Unreal Projects\NoNameProject\NoNameProject.uproject" "C:\Users\ALUMNO\Documents\Unreal Projects\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for NoNameProjectEditor in 6.3151596 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] Grabber.cpp
+C:\Users\ALUMNO\Documents\Unreal Projects\NoNameProject\Source\NoNameProject\Grabber.cpp(41): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: vea la declaración de 'UPhysicsHandleComponent::GrabComponent'
+    [2/4] UE4Editor-NoNameProject-0003.lib
+       Creando biblioteca C:\Users\ALUMNO\Documents\Unreal Projects\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.lib y objeto C:\Users\ALUMNO\Documents\Unreal Projects\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.exp
+    [3/4] UE4Editor-NoNameProject-0003.dll
+       Creando biblioteca C:\Users\ALUMNO\Documents\Unreal Projects\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.suppressed.lib y objeto C:\Users\ALUMNO\Documents\Unreal Projects\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.suppressed.exp
+    [4/4] NoNameProjectEditor.target
+  Total time in Parallel executor: 1.69 seconds
+  Total execution time: 10.02 seconds

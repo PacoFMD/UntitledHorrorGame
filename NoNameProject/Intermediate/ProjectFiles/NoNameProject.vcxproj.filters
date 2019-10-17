@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NoNameProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{671EFDA0-18A0-47E6-9AE7-6F291442EE91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NoNameProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NoNameProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6D8213AE-71BE-444D-AF53-159F035226F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NoNameProject">
+      <UniqueIdentifier>{7F23D2C2-ED7F-406C-BC90-62B3484A59E9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NoNameProject\MyActorComponent.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\MyActorComponent.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\NoNameProject\NoNameProject.Build.cs">
+      <Filter>Source\NoNameProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NoNameProject\NoNameProject.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\NoNameProject.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\NoNameProjectGameModeBase.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\NoNameProjectGameModeBase.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\OpenDoor.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\OpenDoor.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\OpenDoorComponent.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\OpenDoorComponent.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\NoNameProject\OtherDoor.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NoNameProject\Grabber.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NoNameProject\Item.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\NoNameProject\OtherDoor.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NoNameProject\Grabber.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NoNameProject\Item.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

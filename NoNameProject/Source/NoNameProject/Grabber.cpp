@@ -8,6 +8,8 @@
 #include "Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h"
 #include "Classes/Components/PrimitiveComponent.h"
 #include "Classes/Components/InputComponent.h"
+#include "NoNameProject/Item.h"
+
 // Sets default values for this component's properties
 UGrabber::UGrabber()
 {
@@ -34,11 +36,12 @@ void UGrabber::BeginPlay()
 void UGrabber::Grab() {
 	UE_LOG(LogTemp, Warning, TEXT("Grabbing a mango"));
 	FHitResult MyResult = GetFirstPhysicsBodyInReach();
-	AActor* PotentialActor = MyResult.GetActor();
+	AItem* PotentialActor = Cast<AItem>(MyResult.GetActor());// Cast para acceder a un objeto y su escript
 	if (PotentialActor) {
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
 		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();
 		MyHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
+		inventario.Add(PotentialActor->GetItemId());
 	}
 }
 

@@ -70,6 +70,9 @@
     <ClInclude Include="..\..\Source\NoNameProject\Item.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\NoNameProject\LevelNavigation.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\NoNameProject\OtherDoor.cpp">
@@ -79,6 +82,9 @@
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\NoNameProject\Item.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NoNameProject\LevelNavigation.cpp">
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
   </ItemGroup>

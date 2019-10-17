@@ -366,9 +366,11 @@
   <ItemGroup>
     <ClCompile Include="..\..\Source\NoNameProject\Grabber.cpp" />
     <ClCompile Include="..\..\Source\NoNameProject\Item.cpp" />
+    <ClCompile Include="..\..\Source\NoNameProject\LevelNavigation.cpp" />
     <ClCompile Include="..\..\Source\NoNameProject\OtherDoor.cpp" />
     <ClInclude Include="..\..\Source\NoNameProject\Grabber.h" />
     <ClInclude Include="..\..\Source\NoNameProject\Item.h" />
+    <ClInclude Include="..\..\Source\NoNameProject\LevelNavigation.h" />
     <ClInclude Include="..\..\Source\NoNameProject\OtherDoor.h" />
     <None Include="..\..\NoNameProject.uproject" />
     <None Include="..\..\Source\NoNameProject.Target.cs" />

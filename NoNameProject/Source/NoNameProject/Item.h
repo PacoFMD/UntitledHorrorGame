@@ -3,26 +3,25 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
+#include "GameFramework/Actor.h"
 #include "Item.generated.h"
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class NONAMEPROJECT_API UItem : public UActorComponent
+class NONAMEPROJECT_API AItem : public AActor
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UItem();
-
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
+	AItem();
 
 public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
+	int GetItemId();
+
+private:
+	UPROPERTY(EditAnywhere, Category = "Defaults") // poder cambiar la variable desde el editor
+	int id;
 
 		
 };

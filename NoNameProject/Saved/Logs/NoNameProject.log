@@ -2909,3 +2909,21 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.31-18.42.12:611][846]LogAssetEditorManager: Opening Asset editor for Class /Script/NoNameProject.NoNameProjectGameModeBase
 [2019.10.31-18.44.42:922][948]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (0.000 sec). This should never happen. Something is wrong with the timer delegate!
 [2019.10.31-18.45.22:087][ 58]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (39.165 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.31-18.58.43:192][550]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2019.10.31-18.58.43:870][550]LogSlate: Window 'NoNameProject - Unreal Editor' being destroyed
+[2019.10.31-18.58.43:913][550]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.31-18.58.45:289][551]Cmd: QUIT_EDITOR
+[2019.10.31-18.58.48:359][551]LogExit: Preparing to exit.
+[2019.10.31-18.58.51:520][551]LogExit: Editor shut down
+[2019.10.31-18.58.51:523][551]LogExit: Transaction tracking system shut down
+[2019.10.31-18.58.58:641][551]LogExit: Object subsystem successfully closed.
+[2019.10.31-18.58.59:295][551]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.31-18.58.59:366][551]LogD3D11RHI: Shutdown
+[2019.10.31-18.58.59:366][551]LogD3D11RHI: CleanupD3DDevice
+[2019.10.31-18.58.59:617][551]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.10.31-18.58.59:617][551]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.31-18.58.59:620][551]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.10.31-18.58.59:620][551]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.31-18.58.59:620][551]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.10.31-18.58.59:620][551]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.31-18.59.00:261][551]LogD3D11RHI: ~FD3D11DynamicRHI

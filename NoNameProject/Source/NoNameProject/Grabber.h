@@ -30,6 +30,8 @@ protected:
 
 	void Release();
 
+	void ShowInvetory();
+
 	FHitResult GetFirstPhysicsBodyInReach();
 
 public:	
@@ -40,5 +42,5 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Defaults") // poder cambiar la variable desde el editor
 		float distancia = 1000.0f;
 	TArray<int> inventario;
-		
+	//List<int> inventario = new List<int>();
 };

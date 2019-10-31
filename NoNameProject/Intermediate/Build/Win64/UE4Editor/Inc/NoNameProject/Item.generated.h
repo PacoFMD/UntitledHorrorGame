@@ -17,48 +17,48 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define NoNameProject_Source_NoNameProject_Item_h_13_RPC_WRAPPERS_NO_PURE_DECLS
 #define NoNameProject_Source_NoNameProject_Item_h_13_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUItem(); \
-	friend struct Z_Construct_UClass_UItem_Statics; \
+	static void StaticRegisterNativesAItem(); \
+	friend struct Z_Construct_UClass_AItem_Statics; \
 public: \
-	DECLARE_CLASS(UItem, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NoNameProject"), NO_API) \
-	DECLARE_SERIALIZER(UItem)
+	DECLARE_CLASS(AItem, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NoNameProject"), NO_API) \
+	DECLARE_SERIALIZER(AItem)
 
 
 #define NoNameProject_Source_NoNameProject_Item_h_13_INCLASS \
 private: \
-	static void StaticRegisterNativesUItem(); \
-	friend struct Z_Construct_UClass_UItem_Statics; \
+	static void StaticRegisterNativesAItem(); \
+	friend struct Z_Construct_UClass_AItem_Statics; \
 public: \
-	DECLARE_CLASS(UItem, UActorComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/NoNameProject"), NO_API) \
-	DECLARE_SERIALIZER(UItem)
+	DECLARE_CLASS(AItem, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/NoNameProject"), NO_API) \
+	DECLARE_SERIALIZER(AItem)
 
 
 #define NoNameProject_Source_NoNameProject_Item_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UItem(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UItem) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UItem); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UItem); \
+	NO_API AItem(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AItem) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AItem); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AItem); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UItem(UItem&&); \
-	NO_API UItem(const UItem&); \
+	NO_API AItem(AItem&&); \
+	NO_API AItem(const AItem&); \
 public:
 
 
 #define NoNameProject_Source_NoNameProject_Item_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API UItem(UItem&&); \
-	NO_API UItem(const UItem&); \
+	NO_API AItem(AItem&&); \
+	NO_API AItem(const AItem&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UItem); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UItem); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UItem)
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AItem); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AItem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AItem)
 
 
 #define NoNameProject_Source_NoNameProject_Item_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__id() { return STRUCT_OFFSET(UItem, id); }
+	FORCEINLINE static uint32 __PPO__id() { return STRUCT_OFFSET(AItem, id); }
 
 
 #define NoNameProject_Source_NoNameProject_Item_h_10_PROLOG
@@ -84,7 +84,7 @@ private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> NONAMEPROJECT_API UClass* StaticClass<class UItem>();
+template<> NONAMEPROJECT_API UClass* StaticClass<class AItem>();
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID NoNameProject_Source_NoNameProject_Item_h

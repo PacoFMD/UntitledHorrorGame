@@ -8,7 +8,7 @@
 #include "Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h"
 #include "Classes/Components/PrimitiveComponent.h"
 #include "Classes/Components/InputComponent.h"
-#include "NoNameProject/Item.h"
+#include "NoNameProject/ItemClass.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -36,12 +36,15 @@ void UGrabber::BeginPlay()
 void UGrabber::Grab() {
 	UE_LOG(LogTemp, Warning, TEXT("Grabbing a mango"));
 	FHitResult MyResult = GetFirstPhysicsBodyInReach();
-	AItem* PotentialActor = Cast<AItem>(MyResult.GetActor());// Cast para acceder a un objeto y su escript
+	AActor* PotentialActor = MyResult.GetActor();
+	UItemClass* itemActor = Cast<UItemClass>(MyResult.GetActor());// Cast para acceder a un objeto y su script
+	//UE_LOG(LogTemp, Warning, TEXT("Potential Actor %s"), *PotentialActor->GetName());
 	if (PotentialActor) {
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
 		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();
 		MyHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
-		inventario.Add(PotentialActor->GetItemId());
+		inventario.Add(itemActor->GetItemId());
+		//UE_LOG(LogTemp, Warning, TEXT("Inventario %i Item: %i"),inventario.Num(), PotentialActor->GetItemId());
 	}
 }
 
@@ -52,6 +55,23 @@ void UGrabber::Release() {
 	}
 }
 
+
+void UGrabber::ShowInvetory() {
+	UE_LOG(LogTemp, Warning, TEXT("En el key I"));
+	if (inventario.Num() <= 0) {
+		UE_LOG(LogTemp, Warning, TEXT("No hay inventario"));
+	}
+	else {
+		for (int i = 0; i < inventario.Num(); i++) {
+			UE_LOG(LogTemp, Warning, TEXT("Esta el objeto con su id: %i"), inventario[i]);
+		}
+	}
+
+	
+	
+}
+
+
 void UGrabber::GetInputComponent() {
 	auto MyInput = GetOwner()->FindComponentByClass<UInputComponent>();
 	UE_LOG(LogTemp, Warning, TEXT("Antes del If"));
@@ -59,6 +79,7 @@ void UGrabber::GetInputComponent() {
 		UE_LOG(LogTemp, Warning, TEXT("En el if del mango"));
 		MyInput->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
 		MyInput->BindAction("Grab", IE_Released, this, &UGrabber::Release);
+		MyInput->BindAction("InventoryKey_I", IE_Pressed, this, &UGrabber::ShowInvetory);
 	}
 	else
 	{

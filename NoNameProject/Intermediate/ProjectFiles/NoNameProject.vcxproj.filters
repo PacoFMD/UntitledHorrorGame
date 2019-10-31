@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NoNameProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{671EFDA0-18A0-47E6-9AE7-6F291442EE91}</UniqueIdentifier>
+      <UniqueIdentifier>{7AA3F62C-FC6F-4EA5-ACC4-80E924F08DE4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NoNameProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6D8213AE-71BE-444D-AF53-159F035226F6}</UniqueIdentifier>
+      <UniqueIdentifier>{D13CF9B1-D0A9-4D79-B32C-CF40A9E45917}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,13 +23,28 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\NoNameProject">
-      <UniqueIdentifier>{7F23D2C2-ED7F-406C-BC90-62B3484A59E9}</UniqueIdentifier>
+      <UniqueIdentifier>{26614097-1B9C-4CC8-ACA3-A45042E2A16A}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\NoNameProject\MyActorComponent.cpp">
+    <ClCompile Include="..\..\Source\NoNameProject\Grabber.cpp">
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\NoNameProject\MyActorComponent.h">
+    <ClInclude Include="..\..\Source\NoNameProject\Grabber.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\Item.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\Item.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\LevelNavigation.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\LevelNavigation.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\NoNameProject\NoNameProject.Build.cs">
@@ -47,45 +62,11 @@
     <ClInclude Include="..\..\Source\NoNameProject\NoNameProjectGameModeBase.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\NoNameProject\OpenDoor.cpp">
-      <Filter>Source\NoNameProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\NoNameProject\OpenDoor.h">
-      <Filter>Source\NoNameProject</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\NoNameProject\OpenDoorComponent.cpp">
-      <Filter>Source\NoNameProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\NoNameProject\OpenDoorComponent.h">
-      <Filter>Source\NoNameProject</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\NoNameProject\OtherDoor.h">
-      <Filter>Source\NoNameProject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NoNameProject\Grabber.h">
-      <Filter>Source\NoNameProject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NoNameProject\Item.h">
-      <Filter>Source\NoNameProject</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\NoNameProject\LevelNavigation.h">
-      <Filter>Source\NoNameProject</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\NoNameProject\OtherDoor.cpp">
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\NoNameProject\Grabber.cpp">
+    <ClInclude Include="..\..\Source\NoNameProject\OtherDoor.h">
       <Filter>Source\NoNameProject</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\NoNameProject\Item.cpp">
-      <Filter>Source\NoNameProject</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\NoNameProject\LevelNavigation.cpp">
-      <Filter>Source\NoNameProject</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

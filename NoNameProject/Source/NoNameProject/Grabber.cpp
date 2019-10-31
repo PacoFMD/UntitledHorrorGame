@@ -36,7 +36,7 @@ void UGrabber::BeginPlay()
 void UGrabber::Grab() {
 	UE_LOG(LogTemp, Warning, TEXT("Grabbing a mango"));
 	FHitResult MyResult = GetFirstPhysicsBodyInReach();
-	AItem* PotentialActor = Cast<AItem>(MyResult.GetActor());// Cast para acceder a un objeto y su escript
+	AActor* PotentialActor = Cast<AItem>(MyResult.GetActor());// Cast para acceder a un objeto y su escript
 	if (PotentialActor) {
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
 		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();

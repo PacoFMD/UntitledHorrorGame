@@ -8,7 +8,7 @@
 #include "Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h"
 #include "Classes/Components/PrimitiveComponent.h"
 #include "Classes/Components/InputComponent.h"
-#include "NoNameProject/ItemClass.h"
+#include "NoNameProject/Item.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()

@@ -21,7 +21,7 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere, Category = "Defaults") // poder cambiar la variable desde el editor
-	int id = 0;
+	int id;
 
 		
 };

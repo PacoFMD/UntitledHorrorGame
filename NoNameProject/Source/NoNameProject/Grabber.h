@@ -30,8 +30,6 @@ protected:
 
 	void Release();
 
-	void ShowInvetory();
-
 	FHitResult GetFirstPhysicsBodyInReach();
 
 public:	
@@ -43,5 +41,5 @@ private:
 		float distancia = 1000.0f;
 	bool AddToList = true;
 	TArray<int> inventario;
-	//List<int> inventario = new List<int>();
+		
 };

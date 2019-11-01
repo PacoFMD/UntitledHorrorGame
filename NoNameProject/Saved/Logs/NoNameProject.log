@@ -1,4 +1,4 @@
-﻿Log file open, 11/01/19 12:25:23
+﻿﻿Log file open, 11/01/19 12:25:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -97,6 +97,58 @@ LogPluginManager: Mounting plugin SignificanceManager
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: NoNameProject
+Running C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Hector/Documents/GitHub/UntitledHorrorGame/NoNameProject/NoNameProject.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Hector\Documents\GitHub\UntitledHorrorGame).
+Creating makefile for NoNameProjectEditor (.uproject file is newer)
+@progress push 5%
+Parsing headers for NoNameProjectEditor
+  Running UnrealHeaderTool "C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\NoNameProject.uproject" "C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for NoNameProjectEditor in 11.4857659 seconds
+@progress pop
+Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 17 actions with 4 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 6%
+  [1/17] Default.rc2
+  @progress 'Compiling C++ source code...' 12%
+  [2/17] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 18%
+  [3/17] Item.cpp
+  @progress 'Compiling C++ source code...' 24%
+  [4/17] NoNameProjectGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [5/17] NoNameProject.cpp
+  @progress 'Compiling C++ source code...' 35%
+  [6/17] Grabber.cpp
+  C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(43): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
+  @progress 'Compiling C++ source code...' 41%
+  [7/17] LevelNavigation.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [8/17] Grabber.gen.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [9/17] NoNameProject.init.gen.cpp
+  @progress 'Compiling C++ source code...' 59%
+  [10/17] LevelNavigation.gen.cpp
+  @progress 'Compiling C++ source code...' 65%
+  [11/17] NoNameProjectGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 71%
+  [12/17] OtherDoor.gen.cpp
+  @progress 'Compiling C++ source code...' 76%
+  [13/17] Item.gen.cpp
+  @progress 'Compiling C++ source code...' 82%
+  [14/17] OtherDoor.cpp
+  @progress 'Compiling C++ source code...' 88%
+  [15/17] UE4Editor-NoNameProject.lib
+     Creating library C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.lib and object C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.exp
+  @progress 'Compiling C++ source code...' 94%
+  [16/17] UE4Editor-NoNameProject.dll
+     Creating library C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.suppressed.lib and object C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [17/17] NoNameProjectEditor.target
+Total time in Parallel executor: 74.17 seconds
+Total execution time: 146.76 seconds
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.1.1
@@ -120,12 +172,12 @@ LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA Quadro K2200
+LogInit: OS: Windows 10 (Release 1809) (), CPU:        Intel(R) Core(TM) i5-3320M CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 4000
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
-LogInit: Command Line:  -EpicPortal -epicusername=PacoFMD -epicuserid=a1c0250953d54870a6ef1dcafc69e936 -epiclocale=es-MX
+LogInit: Command Line:  -EpicPortal -epicusername=HectorX6 -epicuserid=1af6e793b5e6451097acdf085dd2d65d -epiclocale=en-US
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23

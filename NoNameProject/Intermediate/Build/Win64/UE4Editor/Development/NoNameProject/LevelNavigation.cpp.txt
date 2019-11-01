@@ -1,6 +1,6 @@
-C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\Definitions.NoNameProject.h
-c:\users\alumno\documents\github\untitledhorrorgame\nonameproject\source\nonameproject\LevelNavigation.h
-C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject\LevelNavigation.generated.h
+C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\Definitions.NoNameProject.h
+c:\users\hector\documents\github\untitledhorrorgame\nonameproject\source\nonameproject\LevelNavigation.h
+C:\Users\Hector\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject\LevelNavigation.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h

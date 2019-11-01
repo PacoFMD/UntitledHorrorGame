@@ -41,6 +41,7 @@ public:
 private:
 	UPROPERTY(EditAnywhere, Category = "Defaults") // poder cambiar la variable desde el editor
 		float distancia = 1000.0f;
+	bool AddToList = true;
 	TArray<int> inventario;
 	//List<int> inventario = new List<int>();
 };

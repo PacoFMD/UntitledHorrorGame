@@ -75,4 +75,14 @@
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\NoNameProject\GameManager.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\NoNameProject\GameManager.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

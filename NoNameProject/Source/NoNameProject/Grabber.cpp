@@ -27,29 +27,87 @@ void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
 	MyHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
+	GetInputComponent();
+
 	FActorSpawnParameters MyParamas;
 	MyParamas.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	AActor* MyNewActor = GetWorld()->SpawnActor<AActor>(SpawnableActor, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
-	GetInputComponent();
+	
+}
+
+
+// Called every frame
+void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+	/*if (!MyHandle) {
+
+		return;
+	}*/
+	FVector PlayerViewPointLocation;
+	FRotator PlayerViewPointRotation;
+
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
+	FVector EndLine = PlayerViewPointLocation + (PlayerViewPointRotation.Vector()*300);
+	if (MyHandle->GrabbedComponent) {
+		UE_LOG(LogTemp, Warning, TEXT("Agarrando el mango"));
+		MyHandle->SetTargetLocation(EndLine);
+	}
+}
+
+void UGrabber::GetInputComponent() {
+	auto MyInput = GetOwner()->FindComponentByClass<UInputComponent>();
+
+	if (MyInput) {
+
+		MyInput->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+		MyInput->BindAction("Grab", IE_Released, this, &UGrabber::Release);
+		MyInput->BindAction("InventoryKey_I", IE_Pressed, this, &UGrabber::ShowInvetory);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Not a mango"));
+	}
 }
 
 void UGrabber::Grab() {
 	UE_LOG(LogTemp, Warning, TEXT("Grabbing a mango"));
 	FHitResult MyResult = GetFirstPhysicsBodyInReach();
 	AActor* PotentialActor = MyResult.GetActor();
-	UItemClass* itemActor = Cast<UItemClass>(MyResult.GetActor());// Cast para acceder a un objeto y su script
+	if (!PotentialActor) {
+		UE_LOG(LogTemp, Warning, TEXT("No encontre actor"));
+		return;
+	}
+	/*
+	TArray<UItemClass*> PotentialItems;
+	PotentialActor->GetComponents(PotentialItems);
+	if (PotentialItems.Num() > 0)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Grabbing a mango"));
+	}*/
+
+	//UItemClass* itemActor = Cast<UItemClass>(PotentialActor);// Cast para acceder a un objeto y su script
+	UItemClass* itemActor = PotentialActor->FindComponentByClass<UItemClass>();
+
 	//UE_LOG(LogTemp, Warning, TEXT("Potential Actor %s"), *PotentialActor->GetName());
-	if (PotentialActor) {
+
+	if (itemActor) {
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
 		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();
 		MyHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
-		inventario.Add(itemActor->GetItemId());
+		if (AddToList) {
+			inventario.Add(itemActor->GetItemId());
+			AddToList = false;
+		}
 		//UE_LOG(LogTemp, Warning, TEXT("Inventario %i Item: %i"),inventario.Num(), PotentialActor->GetItemId());
 	}
+
+
 }
 
 void UGrabber::Release() {
 	UE_LOG(LogTemp, Warning, TEXT("Releasing a mango"));
+	AddToList = true;
 	if (MyHandle) {
 		MyHandle->ReleaseComponent();
 	}
@@ -67,45 +125,8 @@ void UGrabber::ShowInvetory() {
 		}
 	}
 
-	
-	
-}
 
 
-void UGrabber::GetInputComponent() {
-	auto MyInput = GetOwner()->FindComponentByClass<UInputComponent>();
-	UE_LOG(LogTemp, Warning, TEXT("Antes del If"));
-	if (MyInput) {
-		UE_LOG(LogTemp, Warning, TEXT("En el if del mango"));
-		MyInput->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
-		MyInput->BindAction("Grab", IE_Released, this, &UGrabber::Release);
-		MyInput->BindAction("InventoryKey_I", IE_Pressed, this, &UGrabber::ShowInvetory);
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Not a mango"));
-	}
-}
-
-
-
-// Called every frame
-void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	if (!MyHandle) {
-
-		return;
-	}
-	FVector PlayerViewPointLocation;
-	FRotator PlayerViewPointRotation;
-
-	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
-	FVector EndLine = PlayerViewPointLocation + (PlayerViewPointRotation.Vector()*300);
-	if (MyHandle->GrabbedComponent) {
-		UE_LOG(LogTemp, Warning, TEXT("Agarrando el mango"));
-		MyHandle->SetTargetLocation(EndLine);
-	}
 }
 
 FHitResult UGrabber::GetFirstPhysicsBodyInReach() {
@@ -134,7 +155,11 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() {
 		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
 		TraceParameters
 	);
+	if (Hit.GetActor()) {
+		UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Hit.GetActor()->GetName());
+	}
 
+	
 	return Hit;
 	/*if (Hit.GetActor()) {
 		//MyHandle

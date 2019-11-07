@@ -579,3 +579,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.11.07-18.24.00:785][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
 [2019.11.07-18.24.01:916][283]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Minimal_DefaultA5CDEC094629C400439870A18FAE48F7.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/StarterContent/Maps/Minimal_Default.umap'
 [2019.11.07-18.24.02:229][283]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Minimal_Default_BuiltData97806BC548BF63B34722DBA6A8707696.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2019.11.07-18.26.03:872][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.07-18.26.07:967][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.07-18.26.24:596][515]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker

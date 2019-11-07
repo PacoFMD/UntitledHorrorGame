@@ -57,10 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGameManager); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UGameManager)
 
 
-#define NoNameProject_Source_NoNameProject_GameManager_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__itemsInventario() { return STRUCT_OFFSET(UGameManager, itemsInventario); }
-
-
+#define NoNameProject_Source_NoNameProject_GameManager_h_13_PRIVATE_PROPERTY_OFFSET
 #define NoNameProject_Source_NoNameProject_GameManager_h_10_PROLOG
 #define NoNameProject_Source_NoNameProject_GameManager_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

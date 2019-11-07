@@ -33,7 +33,12 @@ protected:
 
 	void ShowInvetory();
 	FHitResult GetFirstPhysicsBodyInReach();
-
+	void SpawnItem1();
+	void SpawnItem2();
+	void SpawnItem3();
+	void SpawnItem4();
+	void SpawnItem5();
+	void SpawnItem6();
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

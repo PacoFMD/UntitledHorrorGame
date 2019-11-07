@@ -33,10 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_itemsInventario_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_itemsInventary_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_itemsInventario;
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_itemsInventario_Inner;
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_itemsInventary;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_itemsInventary_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -54,17 +54,17 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventario_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventary_MetaData[] = {
 		{ "Category", "Objetos" },
 		{ "ModuleRelativePath", "GameManager.h" },
 		{ "ToolTip", "poder cambiar la variable desde el editor" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventario = { "itemsInventario", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameManager, itemsInventario), METADATA_PARAMS(Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventario_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventario_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventario_Inner = { "itemsInventario", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventary = { "itemsInventary", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameManager, itemsInventary), METADATA_PARAMS(Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventary_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventary_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventary_Inner = { "itemsInventary", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGameManager_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventario,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventario_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventary,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameManager_Statics::NewProp_itemsInventary_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGameManager_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UGameManager>::IsAbstract,
@@ -93,7 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeGameManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGameManager, 495463213);
+	IMPLEMENT_CLASS(UGameManager, 2612279739);
 	template<> NONAMEPROJECT_API UClass* StaticClass<UGameManager>()
 	{
 		return UGameManager::StaticClass();

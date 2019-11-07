@@ -65,7 +65,14 @@ void UGrabber::GetInputComponent() {
 
 		MyInput->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
 		MyInput->BindAction("Grab", IE_Released, this, &UGrabber::Release);
-		MyInput->BindAction("InventoryKey_I", IE_Pressed, this, &UGrabber::ShowInvetory);
+		MyInput->BindAction("InventoryKey_I", IE_Pressed, this, &UGrabber::ShowInvetory);//itemKey_B
+		MyInput->BindAction("itemKey_1", IE_Pressed, this, &UGrabber::SpawnItem1);//itemKey_1
+		MyInput->BindAction("itemKey_2", IE_Pressed, this, &UGrabber::SpawnItem2);//itemKey_1
+		MyInput->BindAction("itemKey_3", IE_Pressed, this, &UGrabber::SpawnItem3);//itemKey_1
+		MyInput->BindAction("itemKey_4", IE_Pressed, this, &UGrabber::SpawnItem4);//itemKey_1
+		MyInput->BindAction("itemKey_5", IE_Pressed, this, &UGrabber::SpawnItem5);//itemKey_1
+		MyInput->BindAction("itemKey_6", IE_Pressed, this, &UGrabber::SpawnItem6);//itemKey_1
+
 	}
 	else
 	{
@@ -126,15 +133,65 @@ void UGrabber::ShowInvetory() {
 		for (int i = 0; i < inventario.Num(); i++) {
 			UE_LOG(LogTemp, Warning, TEXT("Esta el objeto con su id: %i"), inventario[i]);
 		}
-		TArray<AActor*> _ptrActr;
-		UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
-		UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+		
 		
 	}
+}
 
+void UGrabber::SpawnItem1() {
+	TArray<AActor*> _ptrActr;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
+	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
 
+	if (inventario.Find(1)) {
+		_ptrGameManager->itemsInventary[0];
+		TSubclassOf<AActor> spawnable;
+		//TSubclassOf<AActor> spawnable = _ptrGameManager->itemsInventary[0]; //MARIOOOO DESCOMENTA ESTE Y COMETA EL DE ARRIBA Y VE QUE PEDO CON EL ERROR
+		GetWorld()->SpawnActor<AActor>(spawnable);
+	}else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 1"));
+	}
+	/*for (int i = 0; i < inventario.Num(); i++){
+		if (inventario.Find(i) == 1) {
+
+		}
+	}*/
+	
+}
+
+void UGrabber::SpawnItem2() {
+	TArray<AActor*> _ptrActr;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
+	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
 
 }
+void UGrabber::SpawnItem3() {
+
+	TArray<AActor*> _ptrActr;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
+	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+}
+void UGrabber::SpawnItem4() {
+	TArray<AActor*> _ptrActr;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
+	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
+}
+void UGrabber::SpawnItem5() {
+	TArray<AActor*> _ptrActr;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
+	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
+}
+void UGrabber::SpawnItem6() {
+	TArray<AActor*> _ptrActr;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
+	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
+}
+
+
 
 FHitResult UGrabber::GetFirstPhysicsBodyInReach() {
 	FVector PlayerViewPointLocation;

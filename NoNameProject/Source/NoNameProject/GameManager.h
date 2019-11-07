@@ -23,10 +23,15 @@ protected:
 public:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-private:
 	UPROPERTY(EditAnywhere, Category = "Objetos") // poder cambiar la variable desde el editor
-		TArray<AActor*> itemsInventario;
-
+		TArray<AActor*> itemsInventary;
+private:
+	
+	/*
+	
+	itemsInventario[].
+	
+	*/
 	//
 	/*
 	

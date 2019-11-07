@@ -27,5 +27,16 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Objetos") // poder cambiar la variable desde el editor
 		TArray<AActor*> itemsInventario;
 
+	//
+	/*
+	
+	Grabber player;
+	player = GameObject.Find("Player").GetComponent<Grabber>();
+
+
+	
+	
+	*/
+
 		
 };

@@ -30,6 +30,8 @@ protected:
 
 	void Release();
 
+
+	void ShowInvetory();
 	FHitResult GetFirstPhysicsBodyInReach();
 
 public:	
@@ -41,5 +43,14 @@ private:
 		float distancia = 1000.0f;
 	bool AddToList = true;
 	TArray<int> inventario;
+	/*
+
+	GameManager gm;
+	gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+
+
+
+	*/
 		
 };

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NoNameProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7AA3F62C-FC6F-4EA5-ACC4-80E924F08DE4}</UniqueIdentifier>
+      <UniqueIdentifier>{BE59B13C-FD6D-4875-93AC-6AF88A5618D0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NoNameProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D13CF9B1-D0A9-4D79-B32C-CF40A9E45917}</UniqueIdentifier>
+      <UniqueIdentifier>{E8545350-65EC-4396-8751-A3D0ADBECC57}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NoNameProject">
-      <UniqueIdentifier>{26614097-1B9C-4CC8-ACA3-A45042E2A16A}</UniqueIdentifier>
+      <UniqueIdentifier>{5C1A3F57-4952-4278-970D-74E12E69FFEE}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NoNameProject\GameManager.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\GameManager.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NoNameProject\Grabber.cpp">
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
@@ -39,6 +45,12 @@
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NoNameProject\Item.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\ItemActor.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\ItemActor.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\NoNameProject\LevelNavigation.cpp">
@@ -68,15 +80,5 @@
     <ClInclude Include="..\..\Source\NoNameProject\OtherDoor.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\NoNameProject\GameManager.h">
-      <Filter>Source\NoNameProject</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\NoNameProject\GameManager.cpp">
-      <Filter>Source\NoNameProject</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

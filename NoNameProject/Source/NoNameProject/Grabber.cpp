@@ -9,6 +9,9 @@
 #include "Classes/Components/PrimitiveComponent.h"
 #include "Classes/Components/InputComponent.h"
 #include "NoNameProject/Item.h"
+#include "Kismet/GameplayStatics.h"
+#include "GameManager.h"
+#include "ItemActor.h"
 
 // Sets default values for this component's properties
 UGrabber::UGrabber()
@@ -87,7 +90,7 @@ void UGrabber::Grab() {
 	}*/
 
 	//UItemClass* itemActor = Cast<UItemClass>(PotentialActor);// Cast para acceder a un objeto y su script
-	UItemClass* itemActor = PotentialActor->FindComponentByClass<UItemClass>();
+	UItemActor* itemActor = PotentialActor->FindComponentByClass<UItemActor>();
 
 	//UE_LOG(LogTemp, Warning, TEXT("Potential Actor %s"), *PotentialActor->GetName());
 
@@ -123,6 +126,10 @@ void UGrabber::ShowInvetory() {
 		for (int i = 0; i < inventario.Num(); i++) {
 			UE_LOG(LogTemp, Warning, TEXT("Esta el objeto con su id: %i"), inventario[i]);
 		}
+		TArray<AActor*> _ptrActr;
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
+		UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+		
 	}
 
 

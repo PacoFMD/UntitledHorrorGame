@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NoNameProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BE59B13C-FD6D-4875-93AC-6AF88A5618D0}</UniqueIdentifier>
+      <UniqueIdentifier>{79D41571-A80C-4209-A3A8-F8994B2DACB6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NoNameProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E8545350-65EC-4396-8751-A3D0ADBECC57}</UniqueIdentifier>
+      <UniqueIdentifier>{46E2C759-04FE-42E4-9609-90C0370AAB29}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NoNameProject">
-      <UniqueIdentifier>{5C1A3F57-4952-4278-970D-74E12E69FFEE}</UniqueIdentifier>
+      <UniqueIdentifier>{3EADDAA6-0CEA-4E63-A276-FF6B2403270D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NoNameProject\GameManager.cpp">
       <Filter>Source\NoNameProject</Filter>

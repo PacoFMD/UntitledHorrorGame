@@ -144,10 +144,12 @@ void UGrabber::SpawnItem1() {
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
 
 	if (inventario.Find(1)) {
-		_ptrGameManager->itemsInventary[0];
-		TSubclassOf<AActor> spawnable;
+		_ptrGameManager->InstanceObject(1, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
+		//AActor* xd=GetOwner();
+		//TSubclassOf<AActor> spawnable;
+		//AActor* SpawnedActor1 = GetWorld()->SpawnActor<AActor>(xd, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation);
 		//TSubclassOf<AActor> spawnable = _ptrGameManager->itemsInventary[0]; //MARIOOOO DESCOMENTA ESTE Y COMETA EL DE ARRIBA Y VE QUE PEDO CON EL ERROR
-		GetWorld()->SpawnActor<AActor>(spawnable);
+		//GetWorld()->SpawnActor<AActor>(spawnable);
 	}else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 1"));
@@ -164,6 +166,8 @@ void UGrabber::SpawnItem2() {
 	TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
+
 
 }
 void UGrabber::SpawnItem3() {

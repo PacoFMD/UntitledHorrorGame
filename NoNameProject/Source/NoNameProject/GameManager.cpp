@@ -37,28 +37,6 @@ void UGameManager::InstanceObject(int _id, FVector _location, FRotator _rotation
 {
 	//itemsInventary* Spawned = GetWorld()->SpawnActor<itemsInventary[1]>(itemsInventary[_id], _location, _rotation);
 		//AActor* NewActor = GetWorld()->SpawnActor<AActor>(itemsInventary[_id], _location,_rotation);
-		 
-
-		 switch (_id) {
-		 case 1:
-			 GetWorld()->SpawnActor<AActor>(item1, _location, _rotation);
-			 break;
-		 case 2:
-			 GetWorld()->SpawnActor<AActor>(item2, _location, _rotation);
-			 break;
-		 case 3:
-			 GetWorld()->SpawnActor<AActor>(item3, _location, _rotation);
-			 break;
-		 case 4:
-			 GetWorld()->SpawnActor<AActor>(item4, _location, _rotation);
-			 break;
-		 case 5:
-			 GetWorld()->SpawnActor<AActor>(item5, _location, _rotation);
-			 break;
-		 case 6:
-			 GetWorld()->SpawnActor<AActor>(item6, _location, _rotation);
-			 break;
-
-		 }
+		AActor* NewActor = GetWorld()->SpawnActor<AActor>(item1, _location,  _rotation);
 }
 

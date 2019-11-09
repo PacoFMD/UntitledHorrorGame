@@ -2,7 +2,6 @@
 
 
 #include "GameManager.h"
-#include "Engine/World.h"
 
 // Sets default values for this component's properties
 UGameManager::UGameManager()
@@ -31,12 +30,5 @@ void UGameManager::TickComponent(float DeltaTime, ELevelTick TickType, FActorCom
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
-}
-
-void UGameManager::InstanceObject(int _id, FVector _location, FRotator _rotation)
-{
-	//itemsInventary* Spawned = GetWorld()->SpawnActor<itemsInventary[1]>(itemsInventary[_id], _location, _rotation);
-		//AActor* NewActor = GetWorld()->SpawnActor<AActor>(itemsInventary[_id], _location,_rotation);
-		AActor* NewActor = GetWorld()->SpawnActor<AActor>(item1, _location,  _rotation);
 }
 

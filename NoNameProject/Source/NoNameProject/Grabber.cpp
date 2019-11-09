@@ -166,7 +166,14 @@ void UGrabber::SpawnItem2() {
 	TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
-
+	if (inventario.Find(2)) {
+		_ptrGameManager->InstanceObject(2, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
+		
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 2"));
+	}
 
 
 }
@@ -175,24 +182,55 @@ void UGrabber::SpawnItem3() {
 	TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+	if (inventario.Find(3)) {
+		_ptrGameManager->InstanceObject(3, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
+
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 3"));
+	}
 }
 void UGrabber::SpawnItem4() {
 	TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+	if (inventario.Find(4)) {
+		_ptrGameManager->InstanceObject(4, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
+
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 4"));
+	}
 
 }
 void UGrabber::SpawnItem5() {
 	TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+	if (inventario.Find(5)) {
+		_ptrGameManager->InstanceObject(5, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
+
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 5"));
+	}
 
 }
 void UGrabber::SpawnItem6() {
 	TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+	if (inventario.Find(6)) {
+		_ptrGameManager->InstanceObject(6, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
 
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 6"));
+	}
 }
 
 

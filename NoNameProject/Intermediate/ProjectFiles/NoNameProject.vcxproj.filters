@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NoNameProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{79D41571-A80C-4209-A3A8-F8994B2DACB6}</UniqueIdentifier>
+      <UniqueIdentifier>{82D1025E-3551-4443-A8E9-88E16D2D6F03}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NoNameProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{46E2C759-04FE-42E4-9609-90C0370AAB29}</UniqueIdentifier>
+      <UniqueIdentifier>{7E926A09-0769-48EC-9313-0BE170311F46}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NoNameProject">
-      <UniqueIdentifier>{3EADDAA6-0CEA-4E63-A276-FF6B2403270D}</UniqueIdentifier>
+      <UniqueIdentifier>{987DBF91-41A0-4669-B77A-EFFA9DBFC304}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\NoNameProject\AI_Bot_Character.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\AI_Bot_Character.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NoNameProject\GameManager.cpp">
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
@@ -80,5 +86,21 @@
     <ClInclude Include="..\..\Source\NoNameProject\OtherDoor.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\NoNameProject\AI_Bot_Controller.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\NoNameProject\Waypoint.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\NoNameProject\AI_Bot_Controller.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NoNameProject\Waypoint.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

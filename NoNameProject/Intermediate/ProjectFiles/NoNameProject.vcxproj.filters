@@ -81,4 +81,14 @@
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\NoNameProject\Player_Status.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\NoNameProject\Player_Status.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

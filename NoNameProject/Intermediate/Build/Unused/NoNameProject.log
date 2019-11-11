@@ -1,20 +1,16 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Paco\Documents\GitHub\UntitledHorrorGame).
-  Creating makefile for NoNameProjectEditor (ini files are newer than makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame).
   Parsing headers for NoNameProjectEditor
-    Running UnrealHeaderTool "C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\NoNameProject.uproject" "C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for NoNameProjectEditor in 69.9318779 seconds
-  Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] OtherDoor.cpp
-    [2/5] Grabber.cpp
-C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(109): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: vea la declaración de 'UPhysicsHandleComponent::GrabComponent'
-C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(132): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: vea la declaración de 'UPhysicsHandleComponent::GrabComponent'
-    [3/5] UE4Editor-NoNameProject-0002.lib
-       Creando biblioteca C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.lib y objeto C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.exp
-    [4/5] UE4Editor-NoNameProject-0002.dll
-       Creando biblioteca C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.suppressed.lib y objeto C:\Users\Paco\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.suppressed.exp
-    [5/5] NoNameProjectEditor.target
-  Total time in Parallel executor: 312.50 seconds
-  Total execution time: 437.76 seconds
+    Running UnrealHeaderTool "C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\NoNameProject.uproject" "C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for NoNameProjectEditor in 34.6570523 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] NoNameProject.init.gen.cpp
+    [2/6] FPSCharacter.cpp
+    [3/6] FPSCharacter.gen.cpp
+    [4/6] UE4Editor-NoNameProject-0003.lib
+       Creating library C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.lib and object C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.exp
+    [5/6] UE4Editor-NoNameProject-0003.dll
+       Creating library C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.suppressed.lib and object C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0003.suppressed.exp
+    [6/6] NoNameProjectEditor.target
+  Total time in Parallel executor: 2.70 seconds
+  Total execution time: 38.69 seconds

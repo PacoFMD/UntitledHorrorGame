@@ -1,3 +1,0 @@
-D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\Definitions.NoNameProject.h
-D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\ItemActor.h
-D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject\ItemActor.generated.h

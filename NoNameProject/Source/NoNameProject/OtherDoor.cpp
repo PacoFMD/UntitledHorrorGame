@@ -7,6 +7,7 @@
 #include "GameFramework/Actor.h"
 #include "GameFramework/PlayerController.h"
 #include "Math/UnrealMathUtility.h"
+#include "Grabber.h"
 
 // Sets default values for this component's properties
 UOtherDoor::UOtherDoor()
@@ -40,8 +41,10 @@ void UOtherDoor::BeginPlay()
 void UOtherDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	 
-	if (MyTrigger->IsOverlappingActor(ThePlayer)) {
+	
+	UGrabber* grabber = ThePlayer->FindComponentByClass<UGrabber>();
+
+	if (MyTrigger->IsOverlappingActor(ThePlayer) && grabber->HaveItem(1)) {
 		/*FRotator NewRotation = FRotator(0.0f, 60.0f, 0.0f);
 		MyDoor->SetActorRotation(NewRotation);*/
 

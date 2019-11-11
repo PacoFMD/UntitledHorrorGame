@@ -9,6 +9,7 @@
 #include "Classes/Components/PrimitiveComponent.h"
 #include "Classes/Components/InputComponent.h"
 #include "NoNameProject/Item.h"
+#include "GameFramework/Actor.h"
 #include "Kismet/GameplayStatics.h"
 #include "GameManager.h"
 #include "ItemActor.h"
@@ -64,6 +65,7 @@ void UGrabber::GetInputComponent() {
 	if (MyInput) {
 
 		MyInput->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
+		MyInput->BindAction("GrabItem", IE_Pressed, this, &UGrabber::GrabItem);
 		MyInput->BindAction("Grab", IE_Released, this, &UGrabber::Release);
 		MyInput->BindAction("InventoryKey_I", IE_Pressed, this, &UGrabber::ShowInvetory);//itemKey_B
 		MyInput->BindAction("itemKey_1", IE_Pressed, this, &UGrabber::SpawnItem1);//itemKey_1
@@ -97,10 +99,10 @@ void UGrabber::Grab() {
 	}*/
 
 	//UItemClass* itemActor = Cast<UItemClass>(PotentialActor);// Cast para acceder a un objeto y su script
-	UItemActor* itemActor = PotentialActor->FindComponentByClass<UItemActor>();
+	//UItemActor* itemActor = PotentialActor->FindComponentByClass<UItemActor>();
 
 	//UE_LOG(LogTemp, Warning, TEXT("Potential Actor %s"), *PotentialActor->GetName());
-
+	/*
 	if (itemActor) {
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
 		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();
@@ -111,9 +113,34 @@ void UGrabber::Grab() {
 		}
 		//UE_LOG(LogTemp, Warning, TEXT("Inventario %i Item: %i"),inventario.Num(), PotentialActor->GetItemId());
 	}
+	*/
+}
 
+void UGrabber::GrabItem() {
+	UE_LOG(LogTemp, Warning, TEXT("Grabbing a mango"));
+	FHitResult MyResult = GetFirstPhysicsBodyInReach();
+	AActor* PotentialActor = MyResult.GetActor();
+	if (!PotentialActor) {
+		UE_LOG(LogTemp, Warning, TEXT("No encontre actor"));
+		return;
+	}
+	UItemActor* itemActor = PotentialActor->FindComponentByClass<UItemActor>();
+
+	if (itemActor) {
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
+		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();
+		MyHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
+		if (AddToList) {
+			inventario.Add(itemActor->GetItemId());
+			AddToList = false;
+		}
+	}
+
+	PotentialActor->Destroy();
 
 }
+
+
 
 void UGrabber::Release() {
 	UE_LOG(LogTemp, Warning, TEXT("Releasing a mango"));
@@ -135,6 +162,16 @@ void UGrabber::ShowInvetory() {
 		}
 		
 		
+	}
+}
+
+bool UGrabber::HaveItem(int _id) {
+	if (inventario.Find(_id)) {
+		return true;
+	}
+	else
+	{
+		return false;
 	}
 }
 

@@ -6,6 +6,7 @@
 #include "Waypoint.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
 //#include "FirstPersonCharacter.h"
+#include "GameFramework/PlayerController.h"
 #include "Perception/AIPerceptionComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
 
@@ -60,7 +61,8 @@ void AAI_Bot_Controller::Tick(float DeltaSeconds)
 	}
 	else if (bIsPlayerDetected == true)
 	{
-		//PlayerClass* Player = Cast<>
+		
+		AActor* Player = GetWorld()->GetFirstPlayerController()->GetPawn();
 	}
 }
 

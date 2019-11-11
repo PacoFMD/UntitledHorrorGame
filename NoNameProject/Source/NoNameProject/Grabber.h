@@ -27,9 +27,10 @@ protected:
 	virtual void BeginPlay() override;
 
 	void Grab();
+	
+	void GrabItem();
 
-	void Release();
-
+	void Release();	
 
 	void ShowInvetory();
 	FHitResult GetFirstPhysicsBodyInReach();
@@ -43,6 +44,7 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	virtual void GetInputComponent();
+	bool HaveItem(int _id);
 private:
 	UPROPERTY(EditAnywhere, Category = "Defaults") // poder cambiar la variable desde el editor
 		float distancia = 1000.0f;

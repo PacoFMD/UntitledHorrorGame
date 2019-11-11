@@ -5,7 +5,7 @@
 #include "AI_Bot_Character.h"
 #include "Waypoint.h"
 #include "Runtime/Engine/Classes/Kismet/GameplayStatics.h"
-//#include "FirstPersonCharacter.h"
+#include "Player_Status.h"
 #include "GameFramework/PlayerController.h"
 #include "Perception/AIPerceptionComponent.h"
 #include "Perception/AISenseConfig_Sight.h"
@@ -55,14 +55,20 @@ void AAI_Bot_Controller::Tick(float DeltaSeconds)
 	Super::Tick(DeltaSeconds);
 
 	AAI_Bot_Character* Character = Cast<AAI_Bot_Character>(GetPawn());
-	if (Character->NextWaypoint != nullptr)
+
+	if (DistanceToPlayer > AISightRadius)
+	{
+		bIsPlayerDetected = false;
+	}
+
+	if (Character->NextWaypoint != nullptr && bIsPlayerDetected == false)
 	{
 		MoveToActor(Character->NextWaypoint, 5.0f);
 	}
 	else if (bIsPlayerDetected == true)
 	{
-		
 		AActor* Player = GetWorld()->GetFirstPlayerController()->GetPawn();
+		MoveToActor(Player, 5.0f);
 	}
 }
 
@@ -78,15 +84,6 @@ FRotator AAI_Bot_Controller::GetControlRotation() const
 
 void AAI_Bot_Controller::OnPawnDetected(const TArray<AActor*>& DetectedPawns)
 {
-	/*if (DetectedPawns.Num > 0)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Player has entered field of view."));
-	}
-	else
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Player has exited field of view."));
-	}*/
-
 	for (size_t i = 0; i < DetectedPawns.Num(); i++)
 	{
 		DistanceToPlayer = GetPawn()->GetDistanceTo(DetectedPawns[i]);

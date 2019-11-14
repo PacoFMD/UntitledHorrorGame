@@ -426,21 +426,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject
-/I C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Source
-/I C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject
+/I D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source
+/I D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject\ItemActor.gen.cpp"
-/FI"C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\Definitions.NoNameProject.h"
-/Fo"C:\Users\mario\OneDrive\Documentos\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\ItemActor.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
+/FI"D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject\ItemActor.gen.cpp"
+/FI"D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\Definitions.NoNameProject.h"
+/Fo"D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\ItemActor.gen.cpp.obj"
 /TP
 /GR-
 /W4

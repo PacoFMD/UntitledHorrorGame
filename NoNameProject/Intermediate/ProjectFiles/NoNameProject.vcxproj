@@ -387,6 +387,8 @@
     <ClInclude Include="..\..\Source\NoNameProject\ItemActor.h"/>
     <ClCompile Include="..\..\Source\NoNameProject\LevelNavigation.cpp"/>
     <ClInclude Include="..\..\Source\NoNameProject\LevelNavigation.h"/>
+    <ClCompile Include="..\..\Source\NoNameProject\LightSwitchPushButton.cpp"/>
+    <ClInclude Include="..\..\Source\NoNameProject\LightSwitchPushButton.h"/>
     <None Include="..\..\Source\NoNameProject\NoNameProject.Build.cs"/>
     <ClCompile Include="..\..\Source\NoNameProject\NoNameProject.cpp"/>
     <ClInclude Include="..\..\Source\NoNameProject\NoNameProject.h"/>

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NoNameProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F1C0CB05-2D2F-4A7E-8E46-13965BE89CE2}</UniqueIdentifier>
+      <UniqueIdentifier>{78F7B06A-108F-4F37-B142-E3F799CA9476}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NoNameProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5BDF7B7B-00EF-40B2-90E8-DFCFAB6296B6}</UniqueIdentifier>
+      <UniqueIdentifier>{1050839C-49A0-4BEE-B5A7-9BD27EE0E709}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NoNameProject">
-      <UniqueIdentifier>{C853BDAE-81B7-4AFF-B0D1-08AD986C183D}</UniqueIdentifier>
+      <UniqueIdentifier>{6989E82C-7517-4622-92C1-D3D347D73212}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NoNameProject\AI_Bot_Character.cpp">
       <Filter>Source\NoNameProject</Filter>
@@ -75,6 +75,12 @@
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NoNameProject\LevelNavigation.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\LightSwitchPushButton.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\LightSwitchPushButton.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\NoNameProject\NoNameProject.Build.cs">

@@ -10,7 +10,7 @@ AFPSCharacter::AFPSCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	//Set size for collision capsule
-	GetCapsuleComponent()->InitCapsuleSize(55.0f, 96.0f);
+	GetCapsuleComponent()->InitCapsuleSize(35.0f, 96.0f);
 
 	//Create cameraComponent
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("FirstPersonCamera"));

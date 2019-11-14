@@ -1,20 +1,20 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame).
+  Creating makefile for NoNameProjectEditor (ini files are newer than makefile)
   Parsing headers for NoNameProjectEditor
     Running UnrealHeaderTool "D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\NoNameProject.uproject" "D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for NoNameProjectEditor in 7.1426255 seconds
+  Reflection code generated for NoNameProjectEditor in 7.0349604 seconds
   Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 12 processes...
-    [1/6] NoNameProject.init.gen.cpp
-    [2/6] AI_Bot_Controller.gen.cpp
-    [3/6] AI_Bot_Controller.cpp
+  Building 5 actions with 12 processes...
+    [1/5] AI_Bot_Controller.cpp
 D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\AI_Bot_Controller.cpp(48): warning C4458: declaration of 'Pawn' hides class member
     C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(66): note: see declaration of 'AController::Pawn'
 D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\AI_Bot_Controller.cpp(57): warning C4458: declaration of 'Character' hides class member
     C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: see declaration of 'AController::Character'
-    [4/6] UE4Editor-NoNameProject-0002.lib
-       Creating library D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.lib and object D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.exp
-    [5/6] UE4Editor-NoNameProject-0002.dll
-       Creating library D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.suppressed.lib and object D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.suppressed.exp
-    [6/6] NoNameProjectEditor.target
-  Total time in Parallel executor: 4.13 seconds
-  Total execution time: 12.19 seconds
+    [2/5] FPSCharacter.cpp
+    [3/5] UE4Editor-NoNameProject-0006.lib
+       Creating library D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0006.lib and object D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0006.exp
+    [4/5] UE4Editor-NoNameProject-0006.dll
+       Creating library D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0006.suppressed.lib and object D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0006.suppressed.exp
+    [5/5] NoNameProjectEditor.target
+  Total time in Parallel executor: 12.17 seconds
+  Total execution time: 21.30 seconds

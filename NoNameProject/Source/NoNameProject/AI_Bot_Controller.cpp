@@ -63,7 +63,7 @@ void AAI_Bot_Controller::Tick(float DeltaSeconds)
 
 	if (Character->NextWaypoint != nullptr && bIsPlayerDetected == false)
 	{
-		MoveToActor(Character->NextWaypoint, 5.0f);
+		MoveToActor(Character->NextWaypoint, 3.5f);
 	}
 	else if (bIsPlayerDetected == true)
 	{

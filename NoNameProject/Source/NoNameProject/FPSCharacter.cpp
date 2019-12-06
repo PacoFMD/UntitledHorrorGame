@@ -2,7 +2,6 @@
 
 
 #include "FPSCharacter.h"
-#include "LightSwitchPushButton.h"
 
 // Sets default values
 AFPSCharacter::AFPSCharacter()
@@ -18,18 +17,6 @@ AFPSCharacter::AFPSCharacter()
 	CameraComponent->SetupAttachment(GetCapsuleComponent());
 	CameraComponent->RelativeLocation = FVector(-39.56f, 1.75f, 65.0f); //Position the Camera
 	CameraComponent->bUsePawnControlRotation = true;
-
-	TriggerCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Trigger Capsule"));
-	TriggerCapsule->InitCapsuleSize(55.f, 96.0f);;
-	TriggerCapsule->SetCollisionProfileName(TEXT("Trigger"));
-	TriggerCapsule->SetupAttachment(RootComponent);
-
-	// bind trigger events
-	TriggerCapsule->OnComponentBeginOverlap.AddDynamic(this, &AUnrealCPPCharacter::OnOverlapBegin);
-	TriggerCapsule->OnComponentEndOverlap.AddDynamic(this, &AUnrealCPPCharacter::OnOverlapEnd);
-
-	// set current light switch to null
-	CurrentLightSwitch = nullptr;
 
 }
 
@@ -89,30 +76,4 @@ void AFPSCharacter::SimpleAction()
 void AFPSCharacter::SimpleActionRelease()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Dejaste de presionar E"));
-}
-
-void AFPSCharacter::OnAction()
-{
-	if (CurrentLightSwitch)
-	{
-		CurrentLightSwitch->ToggleLight();
-	}
-}
-
-// overlap on begin function
-void AFPSCharacter::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
-{
-	if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(ALightSwitchPushButton::StaticClass()))
-	{
-		CurrentLightSwitch = Cast<ALightSwitchPushButton>(OtherActor);
-	}
-}
-
-// overlap on end function
-void AFPSCharacter::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
-{
-	if (OtherActor && (OtherActor != this) && OtherComp)
-	{
-		CurrentLightSwitch = nullptr;
-	}
 }

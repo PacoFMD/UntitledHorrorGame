@@ -9,7 +9,6 @@
 #include "FPSCharacter.generated.h"
 
 class UInputComponent;
-class ALightSwitchPushButton;
 
 UCLASS()
 class NONAMEPROJECT_API AFPSCharacter : public ACharacter
@@ -24,19 +23,6 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAcces = "true"))
 		class UCameraComponent* CameraComponent;
 
-	class ALightSwitchPushButton* CurrentLightSwitch;
-
-	UFUNCTION()
-		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-
-	// declare overlap end function
-	UFUNCTION()
-		void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
-
-	// declare current light switch
-	class ALightSwitchPushButton* CurrentLightSwitch;
-	
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -45,7 +31,6 @@ protected:
 	void MoveRight (float val);
 
 	virtual void SetupPlayerInputComponent(UInputComponent * InputComponent) override;
-	void OnAction();
 
 public:	
 	// Called every frame
@@ -56,5 +41,4 @@ public:
 
 	UFUNCTION()
 		void SimpleActionRelease();
-	
 };

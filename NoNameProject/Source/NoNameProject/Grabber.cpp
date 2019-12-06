@@ -35,7 +35,7 @@ void UGrabber::BeginPlay()
 
 	FActorSpawnParameters MyParamas;
 	MyParamas.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-	AActor* MyNewActor = GetWorld()->SpawnActor<AActor>(SpawnableActor, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
+	//AActor* MyNewActor = GetWorld()->SpawnActor<AActor>(SpawnableActor, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
 	
 }
 
@@ -44,10 +44,11 @@ void UGrabber::BeginPlay()
 void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	/*if (!MyHandle) {
+	if (!MyHandle) {
 
 		return;
-	}*/
+	}
+	
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 
@@ -61,13 +62,15 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 void UGrabber::GetInputComponent() {
 	auto MyInput = GetOwner()->FindComponentByClass<UInputComponent>();
+	UE_LOG(LogTemp, Warning, TEXT("?????????????????????????????????????????"));
 
 	if (MyInput) {
+		UE_LOG(LogTemp, Warning, TEXT("Input Setup"));
 
 		MyInput->BindAction("Grab", IE_Pressed, this, &UGrabber::Grab);
 		MyInput->BindAction("GrabItem", IE_Pressed, this, &UGrabber::GrabItem);
 		MyInput->BindAction("Grab", IE_Released, this, &UGrabber::Release);
-		MyInput->BindAction("InventoryKey_I", IE_Pressed, this, &UGrabber::ShowInvetory);//itemKey_B
+		MyInput->BindAction("InventoryKey_B", IE_Pressed, this, &UGrabber::ShowInvetory);//itemKey_B
 		MyInput->BindAction("itemKey_1", IE_Pressed, this, &UGrabber::SpawnItem1);//itemKey_1
 		MyInput->BindAction("itemKey_2", IE_Pressed, this, &UGrabber::SpawnItem2);//itemKey_1
 		MyInput->BindAction("itemKey_3", IE_Pressed, this, &UGrabber::SpawnItem3);//itemKey_1
@@ -90,19 +93,19 @@ void UGrabber::Grab() {
 		UE_LOG(LogTemp, Warning, TEXT("No encontre actor"));
 		return;
 	}
-	/*
-	TArray<UItemClass*> PotentialItems;
+	
+	TArray<UItemActor*> PotentialItems;
 	PotentialActor->GetComponents(PotentialItems);
 	if (PotentialItems.Num() > 0)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Grabbing a mango"));
-	}*/
+	}
 
 	//UItemClass* itemActor = Cast<UItemClass>(PotentialActor);// Cast para acceder a un objeto y su script
-	//UItemActor* itemActor = PotentialActor->FindComponentByClass<UItemActor>();
+	UItemActor* itemActor = PotentialActor->FindComponentByClass<UItemActor>();
 
 	//UE_LOG(LogTemp, Warning, TEXT("Potential Actor %s"), *PotentialActor->GetName());
-	/*
+	
 	if (itemActor) {
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
 		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();
@@ -113,7 +116,7 @@ void UGrabber::Grab() {
 		}
 		//UE_LOG(LogTemp, Warning, TEXT("Inventario %i Item: %i"),inventario.Num(), PotentialActor->GetItemId());
 	}
-	*/
+	
 }
 
 void UGrabber::GrabItem() {
@@ -152,7 +155,7 @@ void UGrabber::Release() {
 
 
 void UGrabber::ShowInvetory() {
-	UE_LOG(LogTemp, Warning, TEXT("En el key I"));
+	UE_LOG(LogTemp, Warning, TEXT("En el key B"));
 	if (inventario.Num() <= 0) {
 		UE_LOG(LogTemp, Warning, TEXT("No hay inventario"));
 	}

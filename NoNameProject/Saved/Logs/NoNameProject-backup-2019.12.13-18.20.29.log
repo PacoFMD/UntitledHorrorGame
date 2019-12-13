@@ -1,0 +1,1526 @@
+﻿Log file open, 12/13/19 12:08:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: NoNameProject
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.387382
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA Quadro K2200
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.13-18.08.02:218][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.13-18.08.02:218][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.13-18.08.02:219][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Engine.ini]
+[2019.12.13-18.08.02:219][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.13-18.08.02:219][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.13-18.08.02:220][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:512]]
+[2019.12.13-18.08.02:220][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Engine.ini]
+[2019.12.13-18.08.02:220][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Engine.ini]
+[2019.12.13-18.08.02:221][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.13-18.08.02:221][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.13-18.08.02:221][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.13-18.08.02:221][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.13-18.08.02:222][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.13-18.08.02:222][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.13-18.08.02:222][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.13-18.08.02:222][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.13-18.08.02:223][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.13-18.08.02:223][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.13-18.08.02:223][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.13-18.08.02:224][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.13-18.08.02:224][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.13-18.08.02:224][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Engine.ini]
+[2019.12.13-18.08.02:225][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.13-18.08.02:225][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.13-18.08.02:225][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.13-18.08.02:226][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.13-18.08.02:226][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.13-18.08.02:226][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.13-18.08.02:227][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.13-18.08.02:227][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.13-18.08.02:227][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.13-18.08.02:228][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.13-18.08.02:228][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.13-18.08.02:228][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.13-18.08.02:229][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.13-18.08.02:229][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Engine.ini]
+[2019.12.13-18.08.02:229][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Engine.ini]
+[2019.12.13-18.08.02:253][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:253][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.13-18.08.02:253][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.13-18.08.02:253][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:254][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.13-18.08.02:254][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:254][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.13-18.08.02:254][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.13-18.08.02:254][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.13-18.08.02:254][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.13-18.08.02:254][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.13-18.08.02:255][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.13-18.08.02:255][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.13-18.08.02:255][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.13-18.08.02:255][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.13-18.08.02:255][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.13-18.08.02:255][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.13-18.08.02:256][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.13-18.08.02:256][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.13-18.08.02:256][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.13-18.08.02:256][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.13-18.08.02:256][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.13-18.08.02:256][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.13-18.08.02:256][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.13-18.08.02:257][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:257][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.13-18.08.02:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.13-18.08.02:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.13-18.08.02:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.13-18.08.02:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.13-18.08.02:257][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.13-18.08.02:258][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.13-18.08.02:258][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.13-18.08.02:258][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.13-18.08.02:258][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.13-18.08.02:258][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.13-18.08.02:258][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.13-18.08.02:258][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.13-18.08.02:259][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.13-18.08.02:259][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.13-18.08.02:259][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.13-18.08.02:259][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.13-18.08.02:259][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.13-18.08.02:259][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.13-18.08.02:259][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.13-18.08.02:260][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.13-18.08.02:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.13-18.08.02:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.13-18.08.02:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.13-18.08.02:260][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.13-18.08.02:260][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.13-18.08.02:261][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.13-18.08.02:261][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.13-18.08.02:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.13-18.08.02:261][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.13-18.08.02:261][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:261][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.13-18.08.02:262][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.13-18.08.02:262][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.13-18.08.02:262][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.13-18.08.02:262][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.13-18.08.02:262][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.13-18.08.02:262][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.13-18.08.02:262][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.13-18.08.02:263][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:263][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.13-18.08.02:263][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.13-18.08.02:263][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.13-18.08.02:263][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.13-18.08.02:263][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.13-18.08.02:264][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.13-18.08.02:265][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:265][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.13-18.08.02:265][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.13-18.08.02:265][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.13-18.08.02:265][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.13-18.08.02:282][  0]LogHAL: Display: Platform has ~ 16 GB [17098399744 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.13-18.08.02:283][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.13-18.08.02:283][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.13-18.08.02:283][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:283][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.13-18.08.02:283][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.13-18.08.02:283][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:283][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.13-18.08.02:283][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:283][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.13-18.08.02:283][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.13-18.08.02:283][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.13-18.08.02:284][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.13-18.08.02:285][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.13-18.08.02:286][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.13-18.08.02:287][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.13-18.08.02:288][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.13-18.08.02:289][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.13-18.08.02:289][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.13-18.08.02:289][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.13-18.08.02:289][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.13-18.08.02:289][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Scalability.ini]
+[2019.12.13-18.08.02:289][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.13-18.08.02:289][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.13-18.08.02:289][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.13-18.08.02:290][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.13-18.08.02:290][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.13-18.08.02:290][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Config/Windows/Engine.ini]
+[2019.12.13-18.08.02:290][  0]LogInit: Computer: P-13
+[2019.12.13-18.08.02:290][  0]LogInit: User: ALUMNO
+[2019.12.13-18.08.02:290][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.13-18.08.02:290][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.13-18.08.02:291][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.13-18.08.02:291][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.13-18.08.02:291][  0]LogMemory: Process Physical Memory: 98.60 MB used, 98.61 MB peak
+[2019.12.13-18.08.02:291][  0]LogMemory: Process Virtual Memory: 88.96 MB used, 88.96 MB peak
+[2019.12.13-18.08.02:291][  0]LogMemory: Physical Memory: 6652.50 MB used,  9653.80 MB free, 16306.30 MB total
+[2019.12.13-18.08.02:291][  0]LogMemory: Virtual Memory: 4643.21 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.13-18.08.02:387][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.12.13-18.08.02:388][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.12.13-18.08.02:553][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.13-18.08.02:609][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.13-18.08.02:609][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.13-18.08.02:925][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.13-18.08.02:925][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.13-18.08.03:010][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
+[2019.12.13-18.08.03:010][  0]LogD3D11RHI:       4053/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.13-18.08.03:017][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.13-18.08.03:017][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.13-18.08.03:017][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.13-18.08.03:023][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.13-18.08.03:023][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2019.12.13-18.08.03:023][  0]LogWindows: EnumDisplayDevices:
+[2019.12.13-18.08.03:024][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
+[2019.12.13-18.08.03:024][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2019.12.13-18.08.03:025][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2019.12.13-18.08.03:025][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2019.12.13-18.08.03:025][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.12.13-18.08.03:025][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
+[2019.12.13-18.08.03:026][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2019.12.13-18.08.03:026][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2019.12.13-18.08.03:026][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2019.12.13-18.08.03:094][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.13-18.08.03:098][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.13-18.08.03:098][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.13-18.08.03:099][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.13-18.08.03:107][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.13-18.08.03:470][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.13-18.08.03:497][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.13-18.08.03:515][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.13-18.08.03:535][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.13-18.08.03:554][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.13-18.08.03:573][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.13-18.08.03:592][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.13-18.08.03:612][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.13-18.08.03:622][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.13-18.08.03:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.13-18.08.03:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.13-18.08.03:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.13-18.08.03:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.13-18.08.03:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.13-18.08.03:729][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.13-18.08.03:730][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.13-18.08.03:738][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.13-18.08.03:801][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.13-18.08.03:801][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.13-18.08.03:833][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.13-18.08.03:833][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.13-18.08.03:851][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.13-18.08.03:868][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.13-18.08.03:886][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.13-18.08.03:909][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.13-18.08.03:969][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.13-18.08.03:969][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.13-18.08.03:969][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.13-18.08.03:993][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.13-18.08.04:117][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Intermediate/Shaders/WorkingDirectory/12172/).
+[2019.12.13-18.08.04:118][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ALUMNO/AppData/Local/Temp/UnrealShaderWorkingDir/E37DC0324B4867FBB79DE7851A336119/'.
+[2019.12.13-18.08.04:121][  0]LogXGEController: Cleaning working directory: C:/Users/ALUMNO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.13-18.08.04:121][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.13-18.08.04:121][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.13-18.08.04:122][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.13-18.08.04:720][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.13-18.08.04:772][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/ALUMNO/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.13-18.08.04:772][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ALUMNO/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.13-18.08.04:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.13-18.08.04:773][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.13-18.08.04:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.13-18.08.04:773][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.13-18.08.04:785][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.13-18.08.04:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.13-18.08.04:785][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.13-18.08.04:799][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ALUMNO/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.13-18.08.04:799][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.13-18.08.04:799][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.13-18.08.04:821][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.13-18.08.04:822][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.13-18.08.04:824][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.13-18.08.04:943][  0]LogAssetRegistry: FAssetRegistry took 0.0388 seconds to start up
+[2019.12.13-18.08.05:352][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.13-18.08.05:527][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.13-18.08.05:528][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.13-18.08.05:528][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.13-18.08.05:528][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.13-18.08.05:528][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.13-18.08.05:546][  0]LogNetVersion: NoNameProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 133946462)
+[2019.12.13-18.08.05:990][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.045125 seconds
+[2019.12.13-18.08.05:996][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.13-18.08.05:996][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.13-18.08.05:996][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.13-18.08.07:271][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.13-18.08.07:289][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.13-18.08.07:514][  0]SourceControl: Source control is disabled
+[2019.12.13-18.08.07:514][  0]SourceControl: Source control is disabled
+[2019.12.13-18.08.07:518][  0]SourceControl: Source control is disabled
+[2019.12.13-18.08.07:523][  0]SourceControl: Source control is disabled
+[2019.12.13-18.08.07:725][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.13-18.08.07:909][  0]LogOcInput: OculusInput pre-init called
+[2019.12.13-18.08.08:897][  0]LogEngine: Initializing Engine...
+[2019.12.13-18.08.08:899][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.13-18.08.08:900][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.13-18.08.09:115][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.13-18.08.09:138][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.13-18.08.09:172][  0]LogInit: XAudio2 using 'MX279 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-18.08.09:201][  0]LogInit: FAudioDevice initialized.
+[2019.12.13-18.08.09:202][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.13-18.08.09:320][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/ALUMNO/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.13-18.08.09:326][  0]LogInit: Texture streaming: Enabled
+[2019.12.13-18.08.09:363][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.13-18.08.09:363][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={E9009E40-40E7-99F5-6A26-2394C6CCBA37}
+[2019.12.13-18.08.09:388][  0]LogInit: Transaction tracking system initialized
+[2019.12.13-18.08.09:434][  0]BlueprintLog: New page: Editor Load
+[2019.12.13-18.08.09:594][  0]LocalizationService: Localization service is disabled
+[2019.12.13-18.08.09:757][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.12.13-18.08.09:758][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.12.13-18.08.09:758][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.12.13-18.08.10:016][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/' took 0.02s
+[2019.12.13-18.08.10:016][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.13-18.08.10:016][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.13-18.08.10:323][  0]SourceControl: Source control is disabled
+[2019.12.13-18.08.10:323][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/PasilloCasa.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.13-18.08.10:324][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/PasilloCasa.umap'
+[2019.12.13-18.08.10:324][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.13-18.08.10:324][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.318ms to complete.
+[2019.12.13-18.08.10:325][  0]LogFileHelpers: Loading map 'PasilloCasa' took 0.001
+[2019.12.13-18.08.10:494][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.08.10:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.08.10:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.08.10:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.08.10:532][  0]LogCollectionManager: Loaded 0 collections in 0.001955 seconds
+[2019.12.13-18.08.10:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Collections/' took 0.01s
+[2019.12.13-18.08.10:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Developers/ALUMNO/Collections/' took 0.01s
+[2019.12.13-18.08.10:577][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Collections/' took 0.01s
+[2019.12.13-18.08.10:577][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.12.13-18.08.10:586][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2746 classes and 663 folders.
+[2019.12.13-18.08.10:594][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.13-18.08.10:596][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:597][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:598][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:599][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:602][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:603][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:604][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:605][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:606][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:606][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:608][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:610][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:610][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:611][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:612][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:613][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:614][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:615][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:615][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:617][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.13-18.08.10:662][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.13-18.08.10:729][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.13-18.08.10:732][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.13-18.08.10:738][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.13-18.08.10:808][  0]LogRenderer: Reallocating scene render targets to support 988x512 Format 10 NumSamples 1 (Frame:1).
+[2019.12.13-18.08.10:928][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.12.13-18.08.10:928][  0]LogLoad: (Engine Initialization) Total time: 11.28 seconds
+[2019.12.13-18.08.10:928][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.13-18.08.10:966][  0]LogAssetRegistry: Asset discovery search completed in 6.0472 seconds
+[2019.12.13-18.08.10:968][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.12.13-18.08.10:968][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000168 seconds (updated 0 objects)
+[2019.12.13-18.08.10:970][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.13-18.08.10:992][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.13-18.08.15:631][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-18.08.21:473][216]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.13-18.08.22:109][216]LogAIModule: Creating AISystem for world PasilloCasa
+[2019.12.13-18.08.22:123][216]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/PasilloCasa.PasilloCasa
+[2019.12.13-18.08.22:146][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2019.12.13-18.08.22:148][216]Cmd: MAP LOAD FILE="../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Levels/PasilloCasa.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.13-18.08.22:148][216]LightingResults: New page: Lighting Build
+[2019.12.13-18.08.22:152][216]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2019.12.13-18.08.22:152][216]LoadErrors: New page: Loading map: PasilloCasa.umap
+[2019.12.13-18.08.22:153][216]MapCheck: New page: Map Check
+[2019.12.13-18.08.22:153][216]LightingResults: New page: Lighting Build
+[2019.12.13-18.08.22:176][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.12.13-18.08.22:252][216]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.13-18.08.22:273][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.12.13-18.08.22:295][216]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.13-18.08.22:296][216]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.293ms to complete.
+[2019.12.13-18.08.22:296][216]LogFileHelpers: Loading map 'PasilloCasa' took 0.149
+[2019.12.13-18.08.25:034][361]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.13-18.08.32:755][922]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.12.13-18.08.34:192][996]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.13-18.08.34:197][996]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.13-18.08.34:911][ 36]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-18.08.34:926][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.08.34:926][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-18.08.34:926][ 36]PIE: New page: PIE session: PasilloCasa (Dec 13, 2019, 6:08:34 AM)
+[2019.12.13-18.08.34:941][ 36]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PasilloCasa
+[2019.12.13-18.08.34:948][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005862s)
+[2019.12.13-18.08.34:949][ 36]LogAIModule: Creating AISystem for world PasilloCasa
+[2019.12.13-18.08.34:949][ 36]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2019.12.13-18.08.34:949][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PasilloCasa.PasilloCasa to /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa (0.007839s)
+[2019.12.13-18.08.34:970][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.12.13-18.08.34:994][ 36]LogInit: XAudio2 using 'MX279 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-18.08.35:008][ 36]LogInit: FAudioDevice initialized.
+[2019.12.13-18.08.35:052][ 36]LogLoad: Game class is 'MyNoNameProjectGameModeBase_C'
+[2019.12.13-18.08.35:056][ 36]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa up for play (max tick rate 0) at 2019.12.13-12.08.35
+[2019.12.13-18.08.35:057][ 36]LogWorld: Bringing up level for play took: 0.003668
+[2019.12.13-18.08.35:076][ 36]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.12.13-18.08.35:077][ 36]LogTemp: Warning: All systems set.
+[2019.12.13-18.08.35:078][ 36]LogTemp: Warning: ?????????????????????????????????????????
+[2019.12.13-18.08.35:078][ 36]LogTemp: Warning: Input Setup
+[2019.12.13-18.08.35:078][ 36]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PasilloCasa 0.729
+[2019.12.13-18.08.35:078][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.08.37:016][150]LogSlate: Took 0.000488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.12.13-18.08.43:084][476]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.08.43:085][476]LogTemp: Warning: No encontre actor
+[2019.12.13-18.08.43:417][495]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.08.44:500][553]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.08.44:501][553]LogTemp: Warning: Hit: Cube_2
+[2019.12.13-18.08.44:501][553]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.08.44:501][553]LogTemp: Warning: Cube_2
+[2019.12.13-18.08.44:501][553]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:518][554]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:537][555]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:556][556]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:575][557]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:593][558]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:612][559]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:631][560]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:649][561]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:668][562]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:687][563]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.44:706][564]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.08.46:060][635]LogTemp: Warning: En el key B
+[2019.12.13-18.08.46:060][635]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.08.47:307][700]LogTemp: Warning: Si hay objeto en 1
+[2019.12.13-18.08.48:690][772]LogTemp: Warning: Si hay objeto en 1
+[2019.12.13-18.08.50:496][866]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.08.50:496][866]LogTemp: Warning: No encontre actor
+[2019.12.13-18.08.50:591][871]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.08.51:066][896]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.08.51:067][896]LogTemp: Warning: Hit: Cube_2
+[2019.12.13-18.08.51:067][896]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.08.51:067][896]LogTemp: Warning: Cube_2
+[2019.12.13-18.08.51:067][896]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.51:084][897]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.51:104][898]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.51:122][899]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.51:141][900]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.51:161][901]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.08.51:179][902]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.08.51:993][945]LogTemp: Warning: En el key B
+[2019.12.13-18.08.51:993][945]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.08.51:994][945]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.08.52:769][986]LogTemp: Warning: Si hay objeto en 1
+[2019.12.13-18.08.53:528][ 26]LogTemp: Warning: Si hay objeto en 1
+[2019.12.13-18.08.53:946][ 48]LogTemp: Warning: Si hay objeto en 1
+[2019.12.13-18.09.05:372][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.09.05:373][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.09.05:423][651]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-18.09.05:424][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.09.05:471][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.09.05:476][651]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2019.12.13-18.09.05:528][652]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.12.13-18.10.18:445][663]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.13-18.10.23:449][863]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.12.13-18.10.57:449][431]LogAIModule: Creating AISystem for world Entry
+[2019.12.13-18.12.14:567][ 90]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-18.12.14:579][ 90]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.12.14:580][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-18.12.14:580][ 90]PIE: New page: PIE session: PasilloCasa (Dec 13, 2019, 6:12:14 AM)
+[2019.12.13-18.12.14:580][ 90]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PasilloCasa
+[2019.12.13-18.12.14:587][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006625s)
+[2019.12.13-18.12.14:588][ 90]LogAIModule: Creating AISystem for world PasilloCasa
+[2019.12.13-18.12.14:589][ 90]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2019.12.13-18.12.14:589][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PasilloCasa.PasilloCasa to /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa (0.008501s)
+[2019.12.13-18.12.14:613][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2019.12.13-18.12.14:639][ 90]LogInit: XAudio2 using 'MX279 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-18.12.14:655][ 90]LogInit: FAudioDevice initialized.
+[2019.12.13-18.12.14:690][ 90]LogLoad: Game class is 'MyNoNameProjectGameModeBase_C'
+[2019.12.13-18.12.14:694][ 90]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa up for play (max tick rate 0) at 2019.12.13-12.12.14
+[2019.12.13-18.12.14:695][ 90]LogWorld: Bringing up level for play took: 0.004049
+[2019.12.13-18.12.14:709][ 90]LogTemp: Warning: All systems set.
+[2019.12.13-18.12.14:709][ 90]LogTemp: Warning: ?????????????????????????????????????????
+[2019.12.13-18.12.14:709][ 90]LogTemp: Warning: Input Setup
+[2019.12.13-18.12.14:709][ 90]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PasilloCasa 0.36
+[2019.12.13-18.12.14:710][ 90]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.12.15:432][132]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.12.15:433][132]LogTemp: Warning: No encontre actor
+[2019.12.13-18.12.16:001][164]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.12.16:684][202]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.12.16:684][202]LogTemp: Warning: Hit: Cube_2
+[2019.12.13-18.12.16:684][202]LogTemp: Warning: Cube_2
+[2019.12.13-18.12.16:685][202]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:698][203]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:716][204]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:734][205]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:751][206]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:769][207]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:787][208]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:807][209]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:822][210]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:840][211]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:857][212]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:876][213]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:893][214]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:910][215]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:929][216]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:947][217]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:964][218]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.16:982][219]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:000][220]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:018][221]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:036][222]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:055][223]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:071][224]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:089][225]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:106][226]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:124][227]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:143][228]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:161][229]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:178][230]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:197][231]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:214][232]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:231][233]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:249][234]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:267][235]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:284][236]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:303][237]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:320][238]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:338][239]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:356][240]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:374][241]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:391][242]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:409][243]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:427][244]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:445][245]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:463][246]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:481][247]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:499][248]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:518][249]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:535][250]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:554][251]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:571][252]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:589][253]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:607][254]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:625][255]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:643][256]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:660][257]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:678][258]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:696][259]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:714][260]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:731][261]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:749][262]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:767][263]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:785][264]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:803][265]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:821][266]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:839][267]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:856][268]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:874][269]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:891][270]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:910][271]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:928][272]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:946][273]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:963][274]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:981][275]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.17:999][276]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:016][277]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:034][278]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:052][279]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:070][280]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:088][281]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:106][282]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:124][283]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:142][284]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:160][285]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:178][286]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:196][287]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:216][288]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:231][289]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:249][290]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:267][291]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:285][292]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:303][293]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:320][294]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:338][295]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:356][296]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:374][297]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:391][298]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:409][299]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:427][300]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:444][301]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:462][302]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:480][303]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:498][304]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:515][305]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:535][306]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:551][307]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:569][308]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:587][309]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:605][310]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:623][311]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:641][312]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:659][313]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:677][314]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:695][315]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:713][316]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:732][317]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:749][318]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:767][319]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:786][320]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:804][321]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:823][322]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:840][323]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:858][324]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:876][325]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:895][326]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:913][327]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:931][328]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:950][329]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:967][330]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.18:986][331]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:004][332]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:022][333]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:040][334]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:058][335]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:077][336]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:095][337]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:114][338]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:132][339]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:150][340]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:167][341]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:185][342]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:203][343]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:222][344]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:240][345]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:259][346]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:277][347]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:295][348]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:313][349]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:331][350]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:351][351]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:367][352]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:385][353]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:404][354]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:422][355]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:442][356]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:461][357]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:477][358]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:495][359]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:513][360]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:531][361]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:549][362]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:567][363]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:584][364]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:603][365]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:621][366]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:640][367]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:658][368]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:675][369]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:693][370]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:710][371]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:728][372]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:746][373]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:764][374]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:782][375]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:801][376]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:820][377]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.12.19:820][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.12.19:821][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.12.19:871][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-18.12.19:871][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.12.19:900][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.12.19:903][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2019.12.13-18.12.19:944][378]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.12.13-18.16.27:849][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-18.16.28:933][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-18.16.29:016][317]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-18.16.29:031][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.16.29:032][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-18.16.29:032][317]PIE: New page: PIE session: PasilloCasa (Dec 13, 2019, 6:16:29 AM)
+[2019.12.13-18.16.29:032][317]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PasilloCasa
+[2019.12.13-18.16.29:041][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008228s)
+[2019.12.13-18.16.29:042][317]LogAIModule: Creating AISystem for world PasilloCasa
+[2019.12.13-18.16.29:042][317]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2019.12.13-18.16.29:043][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PasilloCasa.PasilloCasa to /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa (0.010288s)
+[2019.12.13-18.16.29:065][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.12.13-18.16.29:091][317]LogInit: XAudio2 using 'MX279 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-18.16.29:106][317]LogInit: FAudioDevice initialized.
+[2019.12.13-18.16.29:137][317]LogLoad: Game class is 'MyNoNameProjectGameModeBase_C'
+[2019.12.13-18.16.29:141][317]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa up for play (max tick rate 0) at 2019.12.13-12.16.29
+[2019.12.13-18.16.29:142][317]LogWorld: Bringing up level for play took: 0.004034
+[2019.12.13-18.16.29:158][317]LogTemp: Warning: All systems set.
+[2019.12.13-18.16.29:159][317]LogTemp: Warning: ?????????????????????????????????????????
+[2019.12.13-18.16.29:159][317]LogTemp: Warning: Input Setup
+[2019.12.13-18.16.29:159][317]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PasilloCasa 0.81
+[2019.12.13-18.16.29:160][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.16.29:802][354]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.16.29:802][354]LogTemp: Warning: No encontre actor
+[2019.12.13-18.16.30:368][386]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.16.32:697][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-18.16.33:519][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FBX_PasilloUV_MESH_SueloYTechoPasillo)
+[2019.12.13-18.16.34:645][606]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.16.34:645][606]LogTemp: Warning: No encontre actor
+[2019.12.13-18.16.35:038][628]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.16.35:576][658]LogTemp: Warning: En el key B
+[2019.12.13-18.16.35:576][658]LogTemp: Warning: No hay inventario
+[2019.12.13-18.16.37:537][764]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.16.37:537][764]LogTemp: Warning: Hit: Cube_2
+[2019.12.13-18.16.37:537][764]LogTemp: Warning: Cube_2
+[2019.12.13-18.16.37:539][764]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:556][765]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:574][766]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:593][767]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:612][768]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:632][769]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:650][770]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:669][771]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:688][772]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:707][773]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:726][774]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:745][775]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:765][776]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:783][777]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:802][778]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:822][779]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:842][780]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:859][781]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:878][782]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:897][783]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:915][784]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:934][785]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:953][786]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:972][787]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.37:990][788]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:010][789]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:028][790]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:046][791]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:065][792]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:084][793]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:103][794]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:122][795]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:140][796]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:159][797]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:178][798]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:198][799]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:216][800]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:236][801]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:254][802]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:273][803]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:292][804]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:310][805]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:329][806]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:348][807]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:367][808]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:385][809]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:405][810]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:423][811]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:442][812]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:460][813]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:479][814]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:498][815]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:517][816]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:537][817]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:555][818]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:575][819]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:594][820]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:613][821]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:632][822]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:653][823]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:672][824]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:690][825]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:709][826]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:728][827]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:747][828]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:765][829]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:784][830]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:803][831]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:822][832]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:841][833]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:862][834]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:880][835]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:899][836]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:918][837]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:937][838]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:956][839]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:974][840]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.38:993][841]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:012][842]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:032][843]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:051][844]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:070][845]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:090][846]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:109][847]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:128][848]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:148][849]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:167][850]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:186][851]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:204][852]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:223][853]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:242][854]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:261][855]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:280][856]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:299][857]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:319][858]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:338][859]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:356][860]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:376][861]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:394][862]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:413][863]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:433][864]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:451][865]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:470][866]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:490][867]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:509][868]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:528][869]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:547][870]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:566][871]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:585][872]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:604][873]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:623][874]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:645][875]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:664][876]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:682][877]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:700][878]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:720][879]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:739][880]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:758][881]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:777][882]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:795][883]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:814][884]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:834][885]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:852][886]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:872][887]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:891][888]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:911][889]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:930][890]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:949][891]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:968][892]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.39:987][893]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:006][894]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:026][895]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:044][896]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:063][897]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:083][898]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:102][899]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:121][900]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:140][901]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:159][902]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:178][903]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:197][904]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:216][905]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:235][906]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:254][907]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:272][908]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:292][909]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:311][910]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:330][911]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:349][912]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:367][913]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:386][914]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:406][915]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:424][916]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:444][917]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:463][918]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:481][919]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:500][920]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:520][921]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:538][922]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:557][923]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:576][924]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:596][925]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:614][926]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:633][927]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:652][928]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:671][929]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:690][930]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:709][931]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:729][932]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:747][933]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:767][934]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:786][935]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:805][936]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:824][937]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:843][938]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:863][939]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:882][940]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:901][941]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:921][942]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:940][943]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:959][944]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:978][945]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.40:997][946]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:017][947]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:036][948]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:055][949]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:074][950]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:093][951]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:112][952]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:131][953]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:152][954]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:174][955]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:188][956]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:207][957]LogTemp: Warning: En el key B
+[2019.12.13-18.16.41:207][957]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.41:208][957]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:226][958]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:245][959]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:264][960]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:283][961]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:302][962]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:322][963]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:340][964]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:359][965]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:379][966]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:410][967]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:429][968]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:448][969]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:467][970]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:487][971]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:505][972]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:525][973]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:543][974]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:563][975]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:582][976]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:601][977]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:620][978]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:638][979]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:658][980]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:677][981]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:696][982]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:714][983]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:733][984]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:752][985]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:772][986]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:791][987]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:810][988]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:829][989]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:848][990]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:867][991]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:886][992]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:905][993]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:924][994]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:943][995]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:962][996]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.41:981][997]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:001][998]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:019][999]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:038][  0]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:057][  1]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:077][  2]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:096][  3]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:115][  4]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:134][  5]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:154][  6]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:172][  7]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:192][  8]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:211][  9]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:230][ 10]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:249][ 11]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:268][ 12]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:287][ 13]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:306][ 14]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:326][ 15]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:345][ 16]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:364][ 17]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:384][ 18]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:403][ 19]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:422][ 20]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:441][ 21]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:460][ 22]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:480][ 23]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:498][ 24]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:518][ 25]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:537][ 26]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:556][ 27]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:575][ 28]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:595][ 29]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:614][ 30]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:633][ 31]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:651][ 32]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:670][ 33]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:690][ 34]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:709][ 35]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:728][ 36]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:747][ 37]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:767][ 38]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:786][ 39]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:805][ 40]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:826][ 41]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:844][ 42]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:862][ 43]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:881][ 44]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:900][ 45]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:919][ 46]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:938][ 47]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:958][ 48]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:977][ 49]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.42:996][ 50]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:015][ 51]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:035][ 52]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:053][ 53]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:072][ 54]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:091][ 55]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:110][ 56]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:129][ 57]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:148][ 58]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:167][ 59]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:186][ 60]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:205][ 61]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:223][ 62]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:243][ 63]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:262][ 64]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:281][ 65]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:300][ 66]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:319][ 67]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:338][ 68]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:358][ 69]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:378][ 70]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:396][ 71]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:416][ 72]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:435][ 73]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:454][ 74]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:473][ 75]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:493][ 76]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:512][ 77]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:531][ 78]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:550][ 79]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:570][ 80]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:590][ 81]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:608][ 82]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:627][ 83]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:646][ 84]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:666][ 85]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:685][ 86]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:704][ 87]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:723][ 88]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:742][ 89]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:763][ 90]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:781][ 91]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:800][ 92]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:820][ 93]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:839][ 94]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:858][ 95]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:877][ 96]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:896][ 97]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:916][ 98]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:935][ 99]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:955][100]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:974][101]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.43:994][102]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:013][103]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:033][104]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:051][105]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:071][106]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:090][107]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:110][108]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:129][109]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:151][110]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:169][111]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:187][112]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:207][113]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:226][114]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:245][115]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:265][116]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:285][117]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:304][118]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:325][119]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.16.44:325][119]LogTemp: Warning: No encontre actor
+[2019.12.13-18.16.44:326][119]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:342][120]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:362][121]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:381][122]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:400][123]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:420][124]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:439][125]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:458][126]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:477][127]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:497][128]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:516][129]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:535][130]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:554][131]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:575][132]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:593][133]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:612][134]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:632][135]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:650][136]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:670][137]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.16.44:690][138]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.16.45:752][193]LogTemp: Warning: En el key B
+[2019.12.13-18.16.45:752][193]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.46:394][226]LogTemp: Warning: En el key B
+[2019.12.13-18.16.46:394][226]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.46:973][256]LogTemp: Warning: En el key B
+[2019.12.13-18.16.46:973][256]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.47:358][276]LogTemp: Warning: En el key B
+[2019.12.13-18.16.47:359][276]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.47:533][285]LogTemp: Warning: En el key B
+[2019.12.13-18.16.47:533][285]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.47:938][306]LogTemp: Warning: En el key B
+[2019.12.13-18.16.47:938][306]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.48:265][323]LogTemp: Warning: En el key B
+[2019.12.13-18.16.48:265][323]LogTemp: Warning: Esta el objeto con su id: 1
+[2019.12.13-18.16.49:129][368]LogTemp: Warning: Si hay objeto en 1
+[2019.12.13-18.17.40:607][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-18.17.40:691][ 31]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.13-18.17.40:699][ 31]LogSlate: Window 'Project Settings' being destroyed
+[2019.12.13-18.17.42:738][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-18.17.42:828][143]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.17.42:829][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.17.42:863][143]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-18.17.42:864][143]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.17.42:904][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.17.42:908][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.12.13-18.17.42:928][144]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.12.13-18.18.05:977][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.13-18.18.06:038][578]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.13-18.18.06:050][578]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.18.06:051][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.13-18.18.06:051][578]PIE: New page: PIE session: PasilloCasa (Dec 13, 2019, 6:18:06 AM)
+[2019.12.13-18.18.06:051][578]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PasilloCasa
+[2019.12.13-18.18.06:059][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006867s)
+[2019.12.13-18.18.06:059][578]LogAIModule: Creating AISystem for world PasilloCasa
+[2019.12.13-18.18.06:060][578]LogPlayLevel: PIE: World Init took: (0.000908s)
+[2019.12.13-18.18.06:060][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PasilloCasa.PasilloCasa to /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa (0.008515s)
+[2019.12.13-18.18.06:082][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.12.13-18.18.06:106][578]LogInit: XAudio2 using 'MX279 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.12.13-18.18.06:120][578]LogInit: FAudioDevice initialized.
+[2019.12.13-18.18.06:152][578]LogLoad: Game class is 'MyNoNameProjectGameModeBase_C'
+[2019.12.13-18.18.06:156][578]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PasilloCasa.PasilloCasa up for play (max tick rate 0) at 2019.12.13-12.18.06
+[2019.12.13-18.18.06:157][578]LogWorld: Bringing up level for play took: 0.003227
+[2019.12.13-18.18.06:171][578]LogTemp: Warning: All systems set.
+[2019.12.13-18.18.06:171][578]LogTemp: Warning: ?????????????????????????????????????????
+[2019.12.13-18.18.06:171][578]LogTemp: Warning: Input Setup
+[2019.12.13-18.18.06:171][578]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PasilloCasa -0.178
+[2019.12.13-18.18.06:172][578]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.18.07:003][626]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.18.07:004][626]LogTemp: Warning: No encontre actor
+[2019.12.13-18.18.07:660][663]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.18.10:676][825]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.18.10:676][825]LogTemp: Warning: Hit: Cube_2
+[2019.12.13-18.18.10:676][825]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.18.10:677][825]LogTemp: Warning: Cube_2
+[2019.12.13-18.18.10:677][825]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:694][826]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:712][827]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:731][828]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:750][829]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:769][830]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:788][831]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:807][832]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:825][833]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:844][834]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:864][835]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:883][836]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:901][837]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:920][838]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:939][839]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:958][840]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:978][841]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.10:996][842]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:015][843]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:034][844]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:053][845]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:072][846]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:091][847]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:111][848]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:130][849]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:149][850]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:169][851]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:188][852]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:207][853]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:227][854]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:246][855]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:264][856]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:284][857]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:304][858]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:323][859]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:342][860]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:362][861]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.11:380][862]LogTemp: Warning: Releasing a mango
+[2019.12.13-18.18.16:699][138]LogTemp: Warning: Grabbing a mango
+[2019.12.13-18.18.16:700][138]LogTemp: Warning: Hit: Cube_2
+[2019.12.13-18.18.16:700][138]LogTemp: Warning: Cube_2
+[2019.12.13-18.18.16:702][138]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:716][139]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:735][140]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:755][141]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:773][142]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:792][143]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:811][144]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:830][145]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:849][146]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:869][147]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:889][148]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:907][149]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:927][150]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:946][151]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:965][152]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.16:984][153]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:003][154]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:022][155]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:041][156]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:060][157]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:079][158]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:098][159]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:117][160]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:136][161]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:155][162]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:175][163]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:194][164]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:213][165]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:232][166]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:251][167]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:271][168]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:290][169]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:309][170]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:329][171]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:348][172]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:367][173]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:387][174]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:406][175]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:424][176]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:443][177]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:462][178]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:481][179]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:500][180]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:520][181]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:539][182]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:558][183]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:578][184]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:598][185]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:616][186]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:635][187]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:654][188]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:672][189]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:691][190]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:710][191]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:729][192]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:748][193]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:767][194]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:786][195]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:805][196]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:824][197]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:843][198]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:862][199]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:881][200]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:900][201]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:919][202]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:938][203]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:957][204]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:976][205]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.17:995][206]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:014][207]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:033][208]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:052][209]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:071][210]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:090][211]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:109][212]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:128][213]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:147][214]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:166][215]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:185][216]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:204][217]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:223][218]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:242][219]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:261][220]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:280][221]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:299][222]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:318][223]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:337][224]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:356][225]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:375][226]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:394][227]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:413][228]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:432][229]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:452][230]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:471][231]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:490][232]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:510][233]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:529][234]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:548][235]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:567][236]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:586][237]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:605][238]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:624][239]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:643][240]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:662][241]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:681][242]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:700][243]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:719][244]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:739][245]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:758][246]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:777][247]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:796][248]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:815][249]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:834][250]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:853][251]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:872][252]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:891][253]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:910][254]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:930][255]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:949][256]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:968][257]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.18:987][258]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:006][259]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:025][260]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:044][261]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:063][262]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:082][263]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:101][264]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:120][265]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:139][266]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:158][267]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:177][268]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:197][269]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:215][270]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:234][271]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.19:253][272]LogTemp: Warning: Agarrando el mango
+[2019.12.13-18.18.24:044][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.18.24:046][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.18.24:110][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.13-18.18.24:110][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa' with GeneratedClass '/Game/Levels/PasilloCasa.PasilloCasa_C' with ClassGeneratedBy '/Game/Levels/PasilloCasa.PasilloCasa:PersistentLevel.PasilloCasa'
+[2019.12.13-18.18.24:160][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.13-18.18.24:164][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.12.13-18.18.24:206][523]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.12.13-18.20.29:309][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2019.12.13-18.20.29:310][929]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/PasilloCasa' took 0.026
+[2019.12.13-18.20.29:328][929]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MyNoNameProjectGameModeBase] ([1] browsable assets)...
+[2019.12.13-18.20.29:328][929]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyNoNameProjectGameModeBase]
+[2019.12.13-18.20.29:362][929]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/MyNoNameProjectGameModeBase_Auto917BA7F64944C6F6107253B2BBC3C8A7.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Game/MyNoNameProjectGameModeBase_Auto1.uasset'
+[2019.12.13-18.20.29:364][929]LogFileHelpers: Auto-saving content packages took 0.054

@@ -17,8 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 	NONAMEPROJECT_API UClass* Z_Construct_UClass_UGrabber();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_NoNameProject();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
 	void UGrabber::StaticRegisterNativesUGrabber()
 	{
@@ -33,6 +33,11 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_objInventario_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_objInventario;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_objInventario_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_distancia_MetaData[];
 #endif
@@ -58,6 +63,15 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber_Statics::NewProp_objInventario_MetaData[] = {
+		{ "Category", "Objetos a Spawnear" },
+		{ "ModuleRelativePath", "Grabber.h" },
+		{ "ToolTip", "poder cambiar la variable desde el editor" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_objInventario = { "objInventario", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber, objInventario), METADATA_PARAMS(Z_Construct_UClass_UGrabber_Statics::NewProp_objInventario_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::NewProp_objInventario_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_objInventario_Inner = { "objInventario", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGrabber_Statics::NewProp_distancia_MetaData[] = {
 		{ "Category", "Defaults" },
 		{ "ModuleRelativePath", "Grabber.h" },
@@ -73,6 +87,8 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UGrabber_Statics::NewProp_SpawnableActor = { "SpawnableActor", nullptr, (EPropertyFlags)0x0024080000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGrabber, SpawnableActor), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UGrabber_Statics::NewProp_SpawnableActor_MetaData, ARRAY_COUNT(Z_Construct_UClass_UGrabber_Statics::NewProp_SpawnableActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGrabber_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_objInventario,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_objInventario_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_distancia,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGrabber_Statics::NewProp_SpawnableActor,
 	};
@@ -103,7 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeGrabber() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGrabber, 3919360371);
+	IMPLEMENT_CLASS(UGrabber, 351469409);
 	template<> NONAMEPROJECT_API UClass* StaticClass<UGrabber>()
 	{
 		return UGrabber::StaticClass();

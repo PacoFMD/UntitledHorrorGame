@@ -1,17 +1,19 @@
-﻿  Creating makefile for NoNameProjectEditor (ini files are newer than makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame).
+  Creating makefile for NoNameProjectEditor (ini files are newer than makefile)
   Parsing headers for NoNameProjectEditor
-    Running UnrealHeaderTool "C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\NoNameProject.uproject" "C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for NoNameProjectEditor in 6.850857 seconds
-  Deleted hot-reload file: C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Binaries\Win64\UE4Editor-NoNameProject-0001.dll
-  Deleted hot-reload file: C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Binaries\Win64\UE4Editor-NoNameProject-0002.dll
-  Deleted hot-reload file: C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0001.lib
-  Deleted hot-reload file: C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0002.lib
+    Running UnrealHeaderTool "C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\NoNameProject.uproject" "C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for NoNameProjectEditor in 7.1632491 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-NoNameProject.lib
-       Creando biblioteca C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.lib y objeto C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.exp
-    [2/3] UE4Editor-NoNameProject.dll
-       Creando biblioteca C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.suppressed.lib y objeto C:\Users\ALUMNO\Downloads\UntitledHorrorGame-e1\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject.suppressed.exp
-    [3/3] NoNameProjectEditor.target
-  Total time in Parallel executor: 1.35 seconds
-  Total execution time: 10.01 seconds
+  Building 4 actions with 8 processes...
+    [1/4] Grabber.cpp
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(112): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: vea la declaración de 'UPhysicsHandleComponent::GrabComponent'
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(135): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: vea la declaración de 'UPhysicsHandleComponent::GrabComponent'
+    [2/4] UE4Editor-NoNameProject-0014.lib
+       Creando biblioteca C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0014.lib y objeto C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0014.exp
+    [3/4] UE4Editor-NoNameProject-0014.dll
+       Creando biblioteca C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0014.suppressed.lib y objeto C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0014.suppressed.exp
+    [4/4] NoNameProjectEditor.target
+  Total time in Parallel executor: 3.17 seconds
+  Total execution time: 12.52 seconds

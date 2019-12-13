@@ -20,7 +20,7 @@ UGrabber::UGrabber()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-	
+
 	// ...
 }
 
@@ -36,7 +36,7 @@ void UGrabber::BeginPlay()
 	FActorSpawnParameters MyParamas;
 	MyParamas.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	//AActor* MyNewActor = GetWorld()->SpawnActor<AActor>(SpawnableActor, GetOwner()->GetActorLocation(), GetOwner()->GetActorRotation());
-	
+
 }
 
 
@@ -48,12 +48,12 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 		return;
 	}
-	
+
 	FVector PlayerViewPointLocation;
 	FRotator PlayerViewPointRotation;
 
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
-	FVector EndLine = PlayerViewPointLocation + (PlayerViewPointRotation.Vector()*300);
+	FVector EndLine = PlayerViewPointLocation + (PlayerViewPointRotation.Vector() * 300);
 	if (MyHandle->GrabbedComponent) {
 		UE_LOG(LogTemp, Warning, TEXT("Agarrando el mango"));
 		MyHandle->SetTargetLocation(EndLine);
@@ -93,7 +93,7 @@ void UGrabber::Grab() {
 		UE_LOG(LogTemp, Warning, TEXT("No encontre actor"));
 		return;
 	}
-	
+
 	TArray<UItemActor*> PotentialItems;
 	PotentialActor->GetComponents(PotentialItems);
 	if (PotentialItems.Num() > 0)
@@ -105,15 +105,15 @@ void UGrabber::Grab() {
 	UItemActor* itemActor = PotentialActor->FindComponentByClass<UItemActor>();
 
 	//UE_LOG(LogTemp, Warning, TEXT("Potential Actor %s"), *PotentialActor->GetName());
-	
+
 	if (itemActor) {
 		UE_LOG(LogTemp, Warning, TEXT("%s"), *PotentialActor->GetName());
 		UPrimitiveComponent* ComponentToGrab = MyResult.GetComponent();
 		MyHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
-		if (AddToList) {
+		/*if (AddToList) {
 			inventario.Add(itemActor->GetItemId());
 			AddToList = false;
-		}
+		}*/
 		//UE_LOG(LogTemp, Warning, TEXT("Inventario %i Item: %i"),inventario.Num(), PotentialActor->GetItemId());
 	}
 	
@@ -138,8 +138,9 @@ void UGrabber::GrabItem() {
 			AddToList = false;
 		}
 	}
-
 	PotentialActor->Destroy();
+	Release();
+
 
 }
 
@@ -163,8 +164,8 @@ void UGrabber::ShowInvetory() {
 		for (int i = 0; i < inventario.Num(); i++) {
 			UE_LOG(LogTemp, Warning, TEXT("Esta el objeto con su id: %i"), inventario[i]);
 		}
-		
-		
+
+
 	}
 }
 
@@ -178,17 +179,27 @@ bool UGrabber::HaveItem(int _id) {
 	}
 }
 
+
 void UGrabber::SpawnItem1() {
-	TArray<AActor*> _ptrActr;
+	/*TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
 	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+	if (_ptrGameManager)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *_ptrGameManager->GetName());
+	}
+	*/
 
-	if (inventario.Find(1)) {
-		_ptrGameManager->itemsInventary[0];
+	if (inventario.Contains(1)) {
+		/*_ptrGameManager->itemsInventary[0];
 		TSubclassOf<AActor> spawnable;
 		//TSubclassOf<AActor> spawnable = _ptrGameManager->itemsInventary[0]; //MARIOOOO DESCOMENTA ESTE Y COMETA EL DE ARRIBA Y VE QUE PEDO CON EL ERROR
-		GetWorld()->SpawnActor<AActor>(spawnable);
-	}else
+		GetWorld()->SpawnActor<AActor>(spawnable);*/
+
+		AActor * Newobj = GetWorld()->SpawnActor<AActor>(Cast<UClass>(objInventario[0])->GetClass(), GetOwner()->GetActorLocation()+ FVector(200,0,200), GetOwner()->GetActorRotation()); // sin el GetClass
+		UE_LOG(LogTemp, Warning, TEXT("Si hay objeto en 1"));
+	}
+	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 1"));
 	}
@@ -197,37 +208,29 @@ void UGrabber::SpawnItem1() {
 
 		}
 	}*/
-	
+
 }
 
 void UGrabber::SpawnItem2() {
-	TArray<AActor*> _ptrActr;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
-	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
 
 }
 void UGrabber::SpawnItem3() {
 
-	TArray<AActor*> _ptrActr;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
-	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
 }
 void UGrabber::SpawnItem4() {
-	TArray<AActor*> _ptrActr;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
-	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
 
 }
 void UGrabber::SpawnItem5() {
-	TArray<AActor*> _ptrActr;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
-	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+
 
 }
 void UGrabber::SpawnItem6() {
-	TArray<AActor*> _ptrActr;
+	/*TArray<AActor*> _ptrActr;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
-	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);
+	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);*/
 
 }
 
@@ -239,7 +242,7 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() {
 
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(PlayerViewPointLocation, PlayerViewPointRotation);
 
-	FVector EndLine = PlayerViewPointLocation + (PlayerViewPointRotation.Vector()*300);
+	FVector EndLine = PlayerViewPointLocation + (PlayerViewPointRotation.Vector() * 300);
 
 	DrawDebugLine(GetWorld(),
 		PlayerViewPointLocation,
@@ -263,7 +266,7 @@ FHitResult UGrabber::GetFirstPhysicsBodyInReach() {
 		UE_LOG(LogTemp, Warning, TEXT("Hit: %s"), *Hit.GetActor()->GetName());
 	}
 
-	
+
 	return Hit;
 	/*if (Hit.GetActor()) {
 		//MyHandle

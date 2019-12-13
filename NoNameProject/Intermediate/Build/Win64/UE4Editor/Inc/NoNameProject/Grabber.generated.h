@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UGrabber); \
 
 #define NoNameProject_Source_NoNameProject_Grabber_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SpawnableActor() { return STRUCT_OFFSET(UGrabber, SpawnableActor); } \
-	FORCEINLINE static uint32 __PPO__distancia() { return STRUCT_OFFSET(UGrabber, distancia); }
+	FORCEINLINE static uint32 __PPO__distancia() { return STRUCT_OFFSET(UGrabber, distancia); } \
+	FORCEINLINE static uint32 __PPO__objInventario() { return STRUCT_OFFSET(UGrabber, objInventario); }
 
 
 #define NoNameProject_Source_NoNameProject_Grabber_h_10_PROLOG

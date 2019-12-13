@@ -50,6 +50,9 @@ private:
 		float distancia = 1000.0f;
 	bool AddToList = true;
 	TArray<int> inventario;
+	UPROPERTY(EditAnywhere, Category = "Objetos a Spawnear") // poder cambiar la variable desde el editor
+		TArray<AActor*> objInventario;
+	TSubclassOf<AActor> Spawnable;
 	/*
 
 	GameManager gm;

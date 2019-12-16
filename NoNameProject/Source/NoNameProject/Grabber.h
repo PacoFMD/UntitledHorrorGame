@@ -7,12 +7,12 @@
 #include "Grabber.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class NONAMEPROJECT_API UGrabber : public UActorComponent
 {
 	GENERATED_BODY()
 
-public:	
+public:
 	// Sets default values for this component's properties
 	UGrabber();
 
@@ -27,10 +27,10 @@ protected:
 	virtual void BeginPlay() override;
 
 	void Grab();
-	
+
 	void GrabItem();
 
-	void Release();	
+	void Release();
 
 	void ShowInvetory();
 	FHitResult GetFirstPhysicsBodyInReach();
@@ -40,7 +40,7 @@ protected:
 	void SpawnItem4();
 	void SpawnItem5();
 	void SpawnItem6();
-public:	
+public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 	virtual void GetInputComponent();
@@ -52,6 +52,12 @@ private:
 	TArray<int> inventario;
 	UPROPERTY(EditAnywhere, Category = "Objetos a Spawnear") // poder cambiar la variable desde el editor
 		TArray<AActor*> objInventario;
+	AActor* obj1 = nullptr;
+	AActor* obj2 = nullptr;
+	AActor* obj3 = nullptr;
+	AActor* obj4 = nullptr;
+	AActor* obj5 = nullptr;
+	AActor* obj6 = nullptr;
 	TSubclassOf<AActor> Spawnable;
 	/*
 
@@ -62,5 +68,5 @@ private:
 
 
 	*/
-		
+
 };

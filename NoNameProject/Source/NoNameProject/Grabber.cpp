@@ -62,7 +62,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 void UGrabber::GetInputComponent() {
 	auto MyInput = GetOwner()->FindComponentByClass<UInputComponent>();
-	UE_LOG(LogTemp, Warning, TEXT("?????????????????????????????????????????"));
+	
 
 	if (MyInput) {
 		UE_LOG(LogTemp, Warning, TEXT("Input Setup"));
@@ -135,10 +135,33 @@ void UGrabber::GrabItem() {
 		MyHandle->GrabComponent(ComponentToGrab, NAME_None, ComponentToGrab->GetOwner()->GetActorLocation(), true);
 		if (AddToList) {
 			inventario.Add(itemActor->GetItemId());
+			switch (itemActor->GetItemId()) {
+				case 1:
+					obj1 = PotentialActor;
+					break;
+				case 2:
+					obj2 = PotentialActor;
+					break;
+				case 3:
+					obj3 = PotentialActor;
+					break;
+				case 4:
+					obj4 = PotentialActor;
+					break;
+				case 5:
+					obj5 = PotentialActor;
+					break;
+				case 6:
+					obj6 = PotentialActor;
+					break;
+
+			}
 			AddToList = false;
 		}
 	}
-	PotentialActor->Destroy();
+	PotentialActor->SetActorHiddenInGame(true);
+	PotentialActor->SetActorEnableCollision(false);
+	//PotentialActor->Destroy();
 	Release();
 
 
@@ -196,8 +219,14 @@ void UGrabber::SpawnItem1() {
 		//TSubclassOf<AActor> spawnable = _ptrGameManager->itemsInventary[0]; //MARIOOOO DESCOMENTA ESTE Y COMETA EL DE ARRIBA Y VE QUE PEDO CON EL ERROR
 		GetWorld()->SpawnActor<AActor>(spawnable);*/
 
-		AActor * Newobj = GetWorld()->SpawnActor<AActor>(Cast<UClass>(objInventario[0])->GetClass(), GetOwner()->GetActorLocation()+ FVector(200,0,200), GetOwner()->GetActorRotation()); // sin el GetClass
+		//AActor * Newobj = GetWorld()->SpawnActor<AActor>(Cast<UClass>(objInventario[0])->GetClass(), GetOwner()->GetActorLocation()+ FVector(200,0,200), GetOwner()->GetActorRotation()); // sin el GetClass
+		
+		obj1->SetActorLocation(GetOwner()->GetActorLocation() + FVector(0, 100, 100), false);
+		obj1->SetActorHiddenInGame(false);
+		obj1->SetActorEnableCollision(true);
+		inventario.Remove(1);
 		UE_LOG(LogTemp, Warning, TEXT("Si hay objeto en 1"));
+		
 	}
 	else
 	{
@@ -212,25 +241,78 @@ void UGrabber::SpawnItem1() {
 }
 
 void UGrabber::SpawnItem2() {
+	if (inventario.Contains(2)) {		
+		obj2->SetActorLocation(GetOwner()->GetActorLocation() + FVector(0, 100, 100), false);
+		obj2->SetActorHiddenInGame(false);
+		obj2->SetActorEnableCollision(true);
+		inventario.Remove(2);
+		UE_LOG(LogTemp, Warning, TEXT("Si hay objeto en 2"));
 
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 2"));
+	}
 
 }
 void UGrabber::SpawnItem3() {
+	if (inventario.Contains(3)) {
+		obj3->SetActorLocation(GetOwner()->GetActorLocation() + FVector(0, 100, 100), false);
+		obj3->SetActorHiddenInGame(false);
+		obj3->SetActorEnableCollision(true);
+		inventario.Remove(3);
+		UE_LOG(LogTemp, Warning, TEXT("Si hay objeto en 3"));
 
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 3"));
+	}
 
 }
 void UGrabber::SpawnItem4() {
+	if (inventario.Contains(4)) {
+		obj4->SetActorLocation(GetOwner()->GetActorLocation() + FVector(0, 100, 100), false);
+		obj4->SetActorHiddenInGame(false);
+		obj4->SetActorEnableCollision(true);
+		inventario.Remove(4);
+		UE_LOG(LogTemp, Warning, TEXT("Si hay objeto en 4"));
 
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 4"));
+	}
 
 }
 void UGrabber::SpawnItem5() {
+	if (inventario.Contains(5)) {
+		obj5->SetActorLocation(GetOwner()->GetActorLocation() + FVector(0, 100, 100), false);
+		obj5->SetActorHiddenInGame(false);
+		obj5->SetActorEnableCollision(true);
+		inventario.Remove(5);
+		UE_LOG(LogTemp, Warning, TEXT("Si hay objeto en 5"));
 
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 5"));
+	}
 
 }
 void UGrabber::SpawnItem6() {
-	/*TArray<AActor*> _ptrActr;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), UGameManager::StaticClass(), _ptrActr);
-	UGameManager* _ptrGameManager = Cast<UGameManager>(_ptrActr[0]);*/
+	if (inventario.Contains(6)) {
+		obj6->SetActorLocation(GetOwner()->GetActorLocation() + FVector(0, 100, 100), false);
+		obj6->SetActorHiddenInGame(false);
+		obj6->SetActorEnableCollision(true);
+		inventario.Remove(6);
+		UE_LOG(LogTemp, Warning, TEXT("Si hay objeto en 6"));
+
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("No hay objeto en 6"));
+	}
 
 }
 

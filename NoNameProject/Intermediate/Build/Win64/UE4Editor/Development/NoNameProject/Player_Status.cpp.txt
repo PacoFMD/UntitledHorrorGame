@@ -1,3 +1,0 @@
-C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\Definitions.NoNameProject.h
-c:\users\alumno\documents\github\untitledhorrorgame\nonameproject\source\nonameproject\Player_Status.h
-C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Inc\NoNameProject\Player_Status.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\NoNameProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DD1600A2-1D69-413F-B977-CEACFCD2C798}</UniqueIdentifier>
+      <UniqueIdentifier>{6F673F60-55D2-4D31-B72A-F11954A9AAD2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\NoNameProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1BB97A85-46A5-4C70-9F58-4446D317DA55}</UniqueIdentifier>
+      <UniqueIdentifier>{3CB1FF89-AAF6-4CCC-A9AC-462BFA15D266}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\NoNameProject">
-      <UniqueIdentifier>{9C504EA3-C6B7-4852-9E3F-A4B7744DE3A4}</UniqueIdentifier>
+      <UniqueIdentifier>{C59A4B7E-033F-4121-BE40-36CCCF349934}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\NoNameProject\AI_Bot_Character.cpp">
       <Filter>Source\NoNameProject</Filter>
@@ -71,10 +71,28 @@
     <ClInclude Include="..\..\Source\NoNameProject\ItemActor.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\Lantern.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\Lantern.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\NoNameProject\LevelNavigation.cpp">
       <Filter>Source\NoNameProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\NoNameProject\LevelNavigation.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\LightSwitchPushButton.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\LightSwitchPushButton.h">
+      <Filter>Source\NoNameProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NoNameProject\Linterna.cpp">
+      <Filter>Source\NoNameProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NoNameProject\Linterna.h">
       <Filter>Source\NoNameProject</Filter>
     </ClInclude>
     <None Include="..\..\Source\NoNameProject\NoNameProject.Build.cs">

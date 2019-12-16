@@ -52,6 +52,12 @@ private:
 	TArray<int> inventario;
 	UPROPERTY(EditAnywhere, Category = "Objetos a Spawnear") // poder cambiar la variable desde el editor
 		TArray<AActor*> objInventario;
+	AActor* obj1 = nullptr;
+	AActor* obj2 = nullptr;
+	AActor* obj3 = nullptr;
+	AActor* obj4 = nullptr;
+	AActor* obj5 = nullptr;
+	AActor* obj6 = nullptr;
 	TSubclassOf<AActor> Spawnable;
 	/*
 

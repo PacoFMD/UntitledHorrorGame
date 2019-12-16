@@ -16,6 +16,12 @@ public:
 	// Sets default values for this actor's properties
 	AWaypoint();
 
+	AActor* otherActor;
+
+	bool bIsCounting;
+	float timeToWait;
+	float currentCounter;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		USceneComponent* Root;
 

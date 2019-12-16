@@ -16,6 +16,10 @@ AWaypoint::AWaypoint()
 	BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("Trigger Box"));
 	BoxComponent->SetupAttachment(GetRootComponent());
 	BoxComponent->OnComponentBeginOverlap.AddDynamic(this, &AWaypoint::OnPlayerEnter);
+
+	bIsCounting = false;
+	timeToWait = 3.0f;
+	currentCounter = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -30,6 +34,24 @@ void AWaypoint::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (bIsCounting)
+	{
+		if (currentCounter >= timeToWait)
+		{
+			AAI_Bot_Character* Character = nullptr;
+			Character = Cast<AAI_Bot_Character>(otherActor);
+			if (Character != nullptr)
+			{
+				Character->NextWaypoint = NextWaypoint;
+				currentCounter = 0.0f;
+				bIsCounting = false;
+			}
+		}
+		else
+		{
+			currentCounter += DeltaTime;
+		}
+	}
 }
 
 void AWaypoint::OnPlayerEnter(UPrimitiveComponent* OverlapComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -40,7 +62,8 @@ void AWaypoint::OnPlayerEnter(UPrimitiveComponent* OverlapComponent, AActor* Oth
 		Character = Cast<AAI_Bot_Character>(OtherActor);
 		if (Character != nullptr)
 		{
-			Character->NextWaypoint = NextWaypoint;
+			otherActor = OtherActor;
+			bIsCounting = true;
 		}
 	}
 }

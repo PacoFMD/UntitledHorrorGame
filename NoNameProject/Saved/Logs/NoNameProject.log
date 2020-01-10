@@ -613,3 +613,1342 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.10-17.13.45:190][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
 [2020.01.10-17.13.45:203][780]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2746 classes and 663 folders.
 [2020.01.10-17.13.45:203][780]Display: HotReload took 10.1s.
+[2020.01.10-17.47.52:232][752]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.47.52:975][833]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.47.53:324][868]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.47.54:441][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.47.57:831][977]LogSlate: Window 'New Level' being destroyed
+[2020.01.10-17.47.57:838][977]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.10-17.47.57:947][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.47.57:958][977]LightingResults: New page: Lighting Build
+[2020.01.10-17.47.57:958][977]LoadErrors: New page: Loading map: Template_Default.umap
+[2020.01.10-17.47.57:961][977]MapCheck: New page: Map Check
+[2020.01.10-17.47.57:961][977]LightingResults: New page: Lighting Build
+[2020.01.10-17.47.58:009][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.01.10-17.47.58:681][977]LogAIModule: Creating AISystem for world Untitled_1
+[2020.01.10-17.47.58:902][977]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.10-17.47.58:931][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.01.10-17.47.58:936][977]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.10-17.47.58:937][977]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.54ms to complete.
+[2020.01.10-17.47.58:937][977]LogFileHelpers: Loading map 'Template_Default' took 1.099
+[2020.01.10-17.48.01:310][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.48.01:551][234]LogMaterial: Display: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2020.01.10-17.48.01:777][234]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.10-17.48.01:908][234]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-17.48.01:909][234]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-17.48.01:909][234]LogMaterial: Display: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2020.01.10-17.48.02:134][234]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-17.48.02:134][234]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.10-17.48.02:371][234]LogMaterial: Display: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2020.01.10-17.48.02:987][234]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.10-17.48.03:024][234]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.10-17.48.03:061][234]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.10-17.48.03:106][234]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.10-17.48.03:179][234]LogMaterial: Display: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2020.01.10-17.48.03:275][234]LogMaterial: Display: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2020.01.10-17.48.03:336][234]LogMaterial: Display: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2020.01.10-17.48.03:498][234]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2020.01.10-17.48.35:494][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.48.43:950][ 82]Cmd: TRANSACTION UNDO
+[2020.01.10-17.48.43:950][ 82]LogEditorTransaction: Undo Change Landscape Resolution X
+[2020.01.10-17.49.01:496][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.50.07:165][701]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.50.18:154][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.50.42:671][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.50.43:098][506]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2020.01.10-17.50.43:098][506]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2020.01.10-17.50.43:098][506]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2020.01.10-17.50.43:098][506]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2020.01.10-17.50.43:113][506]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2020.01.10-17.50.50:610][506]LogShaderCompilers: Display: Shaders left to compile 110
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 100
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 90
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 80
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 70
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-17.50.50:611][506]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-17.51.06:878][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.51.46:851][949]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.51.55:748][903]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.52.02:121][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-17.52.05:840][930]Cmd: TRANSACTION UNDO
+[2020.01.10-17.52.05:840][930]LogEditorTransaction: Undo Landscape Editing: Noise
+[2020.01.10-17.52.05:899][930]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2020.01.10-17.52.10:197][293]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.52.13:544][661]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2020.01.10-17.52.23:854][546]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.52.31:131][209]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.52.34:510][531]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-17.57.54:887][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.01.10-17.57.55:115][866]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2020.01.10-17.57.55:124][866]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2020.01.10-17.57.55:759][866]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Untitled_1_Auto1E6EB0E214D7E94FD5113D9ADD17D410B.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2020.01.10-17.57.55:848][866]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.994
+[2020.01.10-17.57.55:848][866]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.994
+[2020.01.10-18.07.00:256][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.07.19:327][653]LogAssetEditorManager: Opening Asset editor for Material /Game/Material/Landscape.Landscape
+[2020.01.10-18.07.19:384][653]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.07.20:422][653]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.07.20:437][653]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.07.20:465][653]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.07.20:577][653]LogSlate: Took 0.022705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.10-18.07.21:157][680]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.07.22:759][862]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.07.22:759][862]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.07.22:759][862]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.07.22:759][862]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.08.37:413][173]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.08.37:447][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.01.10-18.08.37:696][173]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2020.01.10-18.08.38:246][173]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Untitled_1_Auto281B477C043863FDB3F9576B229217A89.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2020.01.10-18.08.38:250][173]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.826
+[2020.01.10-18.08.38:250][173]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.826
+[2020.01.10-18.08.38:254][173]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Material/Landscape] ([1] browsable assets)...
+[2020.01.10-18.08.38:270][173]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Material/Landscape.Landscape]
+[2020.01.10-18.08.38:270][173]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material/Landscape]
+[2020.01.10-18.08.38:294][173]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Landscape_Auto2CE97D929431A26C48A514485413D1412.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Game/Material/Landscape_Auto2.uasset'
+[2020.01.10-18.08.38:298][173]LogFileHelpers: Auto-saving content packages took 0.044
+[2020.01.10-18.09.38:685][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.11.04:235][384]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.04:301][385]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.05:065][475]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.06:192][607]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_0, compiling. 
+[2020.01.10-18.11.06:684][663]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.11.06:684][663]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.11.06:684][663]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.11.06:684][663]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.11.12:630][ 19]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.12:644][ 19]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.12:647][ 19]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.12:955][ 51]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.13:523][118]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.15:093][299]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.11.15:093][299]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.11.15:093][299]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.11.15:093][299]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.11.20:195][906]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.20:209][906]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.20:243][908]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.20:827][976]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.21:186][ 17]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.21:210][ 17]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.21:330][ 25]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.21:996][103]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.23:533][279]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.11.23:533][279]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.11.23:533][279]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.11.23:533][279]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.11.37:786][580]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.37:802][580]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.37:829][581]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.38:419][648]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.39:579][780]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.39:592][780]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.40:153][846]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.41:728][ 19]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.11.41:728][ 19]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.11.41:728][ 19]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.11.41:728][ 19]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.11.42:682][133]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.42:706][135]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.43:235][191]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.50:384][674]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.50:605][675]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.50:982][718]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.52:475][886]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.11.52:476][886]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.11.52:476][886]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.11.52:476][886]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.11.57:797][524]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.57:812][524]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.57:844][525]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.11.58:442][592]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.11.59:495][703]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.11.59:626][716]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.12.00:207][782]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.12.01:680][942]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.12.01:680][942]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.12.01:680][942]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.12.01:680][942]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.12.02:460][ 35]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.12.02:475][ 35]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.12.02:504][ 36]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.12.03:044][ 97]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.12.04:401][245]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.12.04:481][245]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.12.05:058][312]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.12.05:945][410]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.12.06:095][425]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.12.06:748][474]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.12.08:183][593]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.12.08:183][593]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.12.08:183][593]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.12.08:183][593]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.13.05:051][650]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.13.05:066][650]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2020.01.10-18.13.05:104][651]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.13.06:170][772]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.13.07:438][912]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.13.07:438][912]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.13.07:438][912]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.13.07:438][912]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.13.09:209][123]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.13.09:250][124]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.13.09:814][189]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.13.11:997][330]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.13.11:998][330]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.13.11:998][330]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.13.11:998][330]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.14.38:307][854]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Ground_Moss.M_Ground_Moss
+[2020.01.10-18.14.38:321][854]LogMaterial: Display: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2020.01.10-18.14.38:563][854]LogMaterial: Display: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2020.01.10-18.14.38:585][854]LogMaterial: Display: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2020.01.10-18.14.38:606][854]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.14.38:634][854]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.01.10-18.14.38:645][854]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.01.10-18.14.38:655][854]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2020.01.10-18.14.38:664][854]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2020.01.10-18.14.38:673][854]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2020.01.10-18.14.38:682][854]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2020.01.10-18.14.38:691][854]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2020.01.10-18.14.39:100][874]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.01.10-18.14.39:602][926]LogSlate: Took 0.018049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.10-18.14.40:004][954]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.14.41:328][ 74]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.14.42:514][193]MaterialEditorStats: Base pass shader: 148 instructions
+[2020.01.10-18.14.42:514][193]MaterialEditorStats: Base pass shader with Surface Lightmap: 176 instructions
+[2020.01.10-18.14.42:514][193]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2020.01.10-18.14.42:514][193]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.01.10-18.14.42:514][193]MaterialEditorStats: Texture samplers: 7/16
+[2020.01.10-18.14.42:514][193]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(6)
+[2020.01.10-18.14.42:514][193]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.10-18.14.42:548][196]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.15.05:611][839]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.15.05:647][840]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.06:444][924]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.15.07:848][ 80]MaterialEditorStats: Base pass shader: 107 instructions
+[2020.01.10-18.15.07:848][ 80]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2020.01.10-18.15.07:848][ 80]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.15.07:848][ 80]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.15.10:154][356]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.15.10:175][357]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.10:772][419]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.15.12:205][579]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.15.12:205][579]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.15.12:205][579]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.15.12:205][579]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.15.13:341][713]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.15.13:377][714]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.13:888][768]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.15.15:411][933]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.15.15:411][933]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.15.15:411][933]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.15.15:411][933]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.15.17:126][138]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.15.17:145][139]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.17:669][193]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.15.19:177][348]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.15.19:177][348]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.15.19:177][348]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.15.19:177][348]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.15.31:537][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_11 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_11
+[2020.01.10-18.15.31:537][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_11.MaterialExpressionMultiply_2"')'
+[2020.01.10-18.15.31:537][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_9 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_9
+[2020.01.10-18.15.31:537][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionPower'"MaterialGraphNode_9.MaterialExpressionPower_0"')'
+[2020.01.10-18.15.31:537][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_7
+[2020.01.10-18.15.31:537][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionFresnel'"MaterialGraphNode_7.MaterialExpressionFresnel_0"')'
+[2020.01.10-18.15.31:538][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_5
+[2020.01.10-18.15.31:538][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_5.MaterialExpressionConstant_2"')'
+[2020.01.10-18.15.31:538][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_6
+[2020.01.10-18.15.31:538][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_6.MaterialExpressionConstant_3"')'
+[2020.01.10-18.15.31:538][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_43 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_43
+[2020.01.10-18.15.31:538][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_43.MaterialExpressionMultiply_30"')'
+[2020.01.10-18.15.31:538][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_4 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_4
+[2020.01.10-18.15.31:538][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_4.MaterialExpressionTextureSample_4"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.15.31:538][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_28 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_28
+[2020.01.10-18.15.31:538][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'"MaterialGraphNode_28.MaterialExpressionConstant3Vector_5"')'
+[2020.01.10-18.15.31:538][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_19 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_19
+[2020.01.10-18.15.31:539][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionClamp'"MaterialGraphNode_19.MaterialExpressionClamp_3"')'
+[2020.01.10-18.15.31:540][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_10 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_10
+[2020.01.10-18.15.31:540][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_10.MaterialExpressionConstant_1"')'
+[2020.01.10-18.15.31:540][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_8 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_8
+[2020.01.10-18.15.31:540][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionVertexNormalWS'"MaterialGraphNode_8.MaterialExpressionVertexNormalWS_0"')'
+[2020.01.10-18.15.31:541][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_44 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_44
+[2020.01.10-18.15.31:541][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_44.MaterialExpressionMultiply_31"')'
+[2020.01.10-18.15.31:541][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_13 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_13
+[2020.01.10-18.15.31:541][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_13.MaterialExpressionConstant_9"')'
+[2020.01.10-18.15.31:541][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_44 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_44
+[2020.01.10-18.15.31:541][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_44.MaterialExpressionMultiply_31"')'
+[2020.01.10-18.15.31:541][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_12 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_12
+[2020.01.10-18.15.31:541][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_12.MaterialExpressionConstant_4"')'
+[2020.01.10-18.15.31:542][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_24 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_24
+[2020.01.10-18.15.31:542][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_24.MaterialExpressionAdd_12"')'
+[2020.01.10-18.15.31:542][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_15
+[2020.01.10-18.15.31:542][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_15.MaterialExpressionConstant_18"')'
+[2020.01.10-18.15.31:542][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_16 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_16
+[2020.01.10-18.15.31:543][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'"MaterialGraphNode_16.MaterialExpressionSubtract_3"')'
+[2020.01.10-18.15.31:543][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_18 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_18
+[2020.01.10-18.15.31:543][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_18.MaterialExpressionConstant_19"')'
+[2020.01.10-18.15.31:543][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_17
+[2020.01.10-18.15.31:543][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionDivide'"MaterialGraphNode_17.MaterialExpressionDivide_3"')'
+[2020.01.10-18.15.31:543][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_26 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_26
+[2020.01.10-18.15.31:543][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_26.MaterialExpressionMultiply_24"')'
+[2020.01.10-18.15.31:544][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_22 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_22
+[2020.01.10-18.15.31:544][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_22.MaterialExpressionConstant_20"')'
+[2020.01.10-18.15.31:544][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_23 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_23
+[2020.01.10-18.15.31:544][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_23.MaterialExpressionConstant_21"')'
+[2020.01.10-18.15.31:544][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_20 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_20
+[2020.01.10-18.15.31:544][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_20.MaterialExpressionTextureSample_12"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.15.31:545][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_21 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_21
+[2020.01.10-18.15.31:545][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_21.MaterialExpressionLinearInterpolate_9"')'
+[2020.01.10-18.15.31:545][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_14 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_14
+[2020.01.10-18.15.31:545][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionPixelDepth'"MaterialGraphNode_14.MaterialExpressionPixelDepth_3"',Mask=1,MaskR=1)'
+[2020.01.10-18.15.31:545][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_25 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_25
+[2020.01.10-18.15.31:545][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_25.MaterialExpressionTextureCoordinate_12"')'
+[2020.01.10-18.15.31:545][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_27 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_27
+[2020.01.10-18.15.31:545][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_27.MaterialExpressionConstant_22"')'
+[2020.01.10-18.15.31:546][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_31 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_31
+[2020.01.10-18.15.31:546][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_31.MaterialExpressionMultiply_25"')'
+[2020.01.10-18.15.31:547][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_30 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_30
+[2020.01.10-18.15.31:547][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_30.MaterialExpressionTextureCoordinate_13"')'
+[2020.01.10-18.15.31:547][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_29 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_29
+[2020.01.10-18.15.31:547][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_29.MaterialExpressionTextureSample_13"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.15.31:547][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_35
+[2020.01.10-18.15.31:547][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_35.MaterialExpressionMultiply_26"')'
+[2020.01.10-18.15.31:548][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_34 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_34
+[2020.01.10-18.15.31:548][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_34.MaterialExpressionTextureCoordinate_14"')'
+[2020.01.10-18.15.31:548][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_33 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_33
+[2020.01.10-18.15.31:548][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_33.MaterialExpressionTextureSample_14"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.15.31:549][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_39 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_39
+[2020.01.10-18.15.31:549][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_39.MaterialExpressionMultiply_27"')'
+[2020.01.10-18.15.31:549][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_38 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_38
+[2020.01.10-18.15.31:549][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_38.MaterialExpressionTextureCoordinate_15"')'
+[2020.01.10-18.15.31:550][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_37
+[2020.01.10-18.15.31:550][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_37.MaterialExpressionTextureSample_15"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.15.31:550][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_36
+[2020.01.10-18.15.31:550][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_36.MaterialExpressionAdd_14"')'
+[2020.01.10-18.15.31:550][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_40 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_40
+[2020.01.10-18.15.31:550][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_40.MaterialExpressionAdd_15"')'
+[2020.01.10-18.15.31:550][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_32 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_32
+[2020.01.10-18.15.31:550][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_32.MaterialExpressionAdd_13"')'
+[2020.01.10-18.15.31:550][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_41 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_41
+[2020.01.10-18.15.31:550][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_41.MaterialExpressionMultiply_28"')'
+[2020.01.10-18.15.31:551][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_42
+[2020.01.10-18.15.31:551][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_42.MaterialExpressionMultiply_29"')'
+[2020.01.10-18.15.31:551][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.15.31:551][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_3.MaterialExpressionTextureSample_1"',OutputIndex=4,Mask=1,MaskA=1)'
+[2020.01.10-18.15.31:551][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_42
+[2020.01.10-18.15.31:551][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_42.MaterialExpressionMultiply_29"')'
+[2020.01.10-18.15.31:551][816]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.15.31:551][816]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_3.MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.15.31:589][816]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.15.31:605][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.01.10-18.15.31:610][816]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.31:610][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.01.10-18.15.31:617][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2020.01.10-18.15.31:623][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2020.01.10-18.15.31:631][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2020.01.10-18.15.31:643][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2020.01.10-18.15.31:652][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2020.01.10-18.15.31:912][832]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.15.32:772][910]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.33:809][998]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.15.33:809][998]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.15.33:809][998]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.15.33:809][998]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.15.33:820][999]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.15.48:567][718]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.15.48:586][718]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.48:590][718]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2020.01.10-18.15.48:624][718]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.01.10-18.15.48:661][718]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2020.01.10-18.15.48:699][718]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_5, compiling. 
+[2020.01.10-18.15.48:739][718]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2020.01.10-18.15.48:779][718]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
+[2020.01.10-18.15.48:814][718]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2020.01.10-18.15.48:845][718]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.15.49:703][813]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.15.50:803][921]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.15.50:803][921]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.15.50:803][921]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.15.50:803][921]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.15.50:813][922]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.16.06:016][701]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.16.06:041][703]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.16.06:635][767]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.16.08:081][919]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.16.08:081][919]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.16.08:081][919]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.16.08:081][919]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.16.14:046][634]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.16.14:073][636]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.16.14:659][701]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.16.16:207][876]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.16.16:207][876]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.16.16:207][876]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.16.16:207][876]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.16.51:266][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.17.12:181][361]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Metal_Rust.M_Metal_Rust
+[2020.01.10-18.17.12:194][361]LogMaterial: Display: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2020.01.10-18.17.12:340][361]LogMaterial: Display: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2020.01.10-18.17.12:372][361]LogMaterial: Display: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2020.01.10-18.17.12:409][361]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.17.12:425][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
+[2020.01.10-18.17.12:435][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2020.01.10-18.17.12:446][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
+[2020.01.10-18.17.12:455][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
+[2020.01.10-18.17.12:463][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2020.01.10-18.17.12:473][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.01.10-18.17.12:482][361]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2020.01.10-18.17.12:899][391]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.01.10-18.17.13:799][491]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.17.15:084][637]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.17.16:027][742]MaterialEditorStats: Base pass shader: 134 instructions
+[2020.01.10-18.17.16:027][742]MaterialEditorStats: Base pass shader with Surface Lightmap: 162 instructions
+[2020.01.10-18.17.16:027][742]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 208 instructions
+[2020.01.10-18.17.16:027][742]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.01.10-18.17.16:027][742]MaterialEditorStats: Texture samplers: 6/16
+[2020.01.10-18.17.16:027][742]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2020.01.10-18.17.16:027][742]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.10-18.17.16:073][747]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.17.32:345][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_14 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_14
+[2020.01.10-18.17.32:345][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_14 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_14
+[2020.01.10-18.17.32:345][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_14.MaterialExpressionLinearInterpolate_41"')'
+[2020.01.10-18.17.32:345][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_1 or MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_1
+[2020.01.10-18.17.32:345][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_1 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_1
+[2020.01.10-18.17.32:345][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_1.MaterialExpressionTextureSample_55"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.17.32:346][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_4 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_4
+[2020.01.10-18.17.32:346][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_4 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_4
+[2020.01.10-18.17.32:346][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_4.MaterialExpressionTextureSample_4"',InputName="BaseNormal",Mask=1,MaskR=1,MaskG=1,MaskB=1))'
+[2020.01.10-18.17.32:346][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_18 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_18
+[2020.01.10-18.17.32:346][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_18 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_18
+[2020.01.10-18.17.32:346][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_18.MaterialExpressionMultiply_8"',InputName="AdditionalNormal"))'
+[2020.01.10-18.17.32:347][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_7
+[2020.01.10-18.17.32:347][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_7
+[2020.01.10-18.17.32:347][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_7.MaterialExpressionMultiply_75"')'
+[2020.01.10-18.17.32:348][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_6
+[2020.01.10-18.17.32:348][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_6
+[2020.01.10-18.17.32:348][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_6.MaterialExpressionTextureCoordinate_38"')'
+[2020.01.10-18.17.32:348][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_5
+[2020.01.10-18.17.32:348][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_5
+[2020.01.10-18.17.32:348][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_5.MaterialExpressionTextureSample_58"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.17.32:348][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_11 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_11
+[2020.01.10-18.17.32:348][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_11 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_11
+[2020.01.10-18.17.32:348][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_11.MaterialExpressionMultiply_76"')'
+[2020.01.10-18.17.32:349][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_10 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_10
+[2020.01.10-18.17.32:349][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_10 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_10
+[2020.01.10-18.17.32:349][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_10.MaterialExpressionTextureCoordinate_39"')'
+[2020.01.10-18.17.32:349][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_9 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_9
+[2020.01.10-18.17.32:349][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_9 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_9
+[2020.01.10-18.17.32:350][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_9.MaterialExpressionTextureSample_59"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_8 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_8
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_8 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_8
+[2020.01.10-18.17.32:350][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_8.MaterialExpressionAdd_37"')'
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_12 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_12
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_12 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_12
+[2020.01.10-18.17.32:350][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_12.MaterialExpressionAdd_38"')'
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_15
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_15
+[2020.01.10-18.17.32:350][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'"MaterialGraphNode_15.MaterialExpressionConstant3Vector_20"')'
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_13 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_13
+[2020.01.10-18.17.32:350][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_13 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_13
+[2020.01.10-18.17.32:350][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_13.MaterialExpressionMultiply_79"')'
+[2020.01.10-18.17.32:351][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_17
+[2020.01.10-18.17.32:351][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_17
+[2020.01.10-18.17.32:351][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_17.MaterialExpressionTextureCoordinate_9"')'
+[2020.01.10-18.17.32:351][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_16 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_16
+[2020.01.10-18.17.32:352][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_16 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_16
+[2020.01.10-18.17.32:352][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_16.MaterialExpressionTextureSample_5"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.17.32:352][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_19 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_19
+[2020.01.10-18.17.32:352][681]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_19 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_19
+[2020.01.10-18.17.32:352][681]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'"MaterialGraphNode_19.MaterialExpressionConstant3Vector_3"')'
+[2020.01.10-18.17.32:374][681]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.17.32:390][681]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.17.32:390][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
+[2020.01.10-18.17.32:396][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.10-18.17.32:402][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
+[2020.01.10-18.17.32:409][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
+[2020.01.10-18.17.32:417][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2020.01.10-18.17.32:423][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.01.10-18.17.32:430][681]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2020.01.10-18.17.32:697][695]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.17.33:507][753]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.17.34:644][863]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.17.34:645][863]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.17.34:645][863]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.17.34:645][863]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.17.34:645][863]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.17.45:657][167]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.17.45:678][167]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.17.45:681][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_55, compiling. 
+[2020.01.10-18.17.45:715][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2020.01.10-18.17.45:751][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_58, compiling. 
+[2020.01.10-18.17.45:788][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_59, compiling. 
+[2020.01.10-18.17.45:827][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2020.01.10-18.17.45:864][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2020.01.10-18.17.45:903][167]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2020.01.10-18.17.45:922][167]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.17.46:752][257]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.17.47:766][371]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.17.47:785][373]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.17.47:785][373]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.17.47:785][373]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.17.47:785][373]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.18.00:094][811]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.18.00:115][812]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.18.00:762][880]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.18.02:319][ 46]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.18.02:319][ 46]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.18.02:319][ 46]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.18.02:319][ 46]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.18.14:128][460]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.18.14:155][462]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.18.14:756][524]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.18.16:281][665]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.18.16:281][665]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.18.16:281][665]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.18.16:281][665]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.19.00:840][ 24]LogAssetEditorManager: Opening Asset editor for Material /Game/StarterContent/Materials/M_Rock_Basalt.M_Rock_Basalt
+[2020.01.10-18.19.00:851][ 24]LogMaterial: Display: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2020.01.10-18.19.00:957][ 24]LogMaterial: Display: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2020.01.10-18.19.00:977][ 24]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.19.00:979][ 24]LogMaterial: Display: Missing cached shader map for material M_Rock_Basalt, compiling. 
+[2020.01.10-18.19.01:043][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2020.01.10-18.19.01:052][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2020.01.10-18.19.01:061][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2020.01.10-18.19.01:070][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2020.01.10-18.19.01:078][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_41, compiling. 
+[2020.01.10-18.19.01:087][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_42, compiling. 
+[2020.01.10-18.19.01:096][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_43, compiling. 
+[2020.01.10-18.19.01:104][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_15, compiling. 
+[2020.01.10-18.19.01:112][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2020.01.10-18.19.01:120][ 24]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2020.01.10-18.19.01:463][ 38]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.01.10-18.19.02:069][ 99]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.01.10-18.19.03:306][196]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.19.04:633][305]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.05:070][341]MaterialEditorStats: Base pass shader: 148 instructions
+[2020.01.10-18.19.05:070][341]MaterialEditorStats: Base pass shader with Surface Lightmap: 176 instructions
+[2020.01.10-18.19.05:070][341]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2020.01.10-18.19.05:070][341]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2020.01.10-18.19.05:070][341]MaterialEditorStats: Texture samplers: 7/16
+[2020.01.10-18.19.05:070][341]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(8)
+[2020.01.10-18.19.05:070][341]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2020.01.10-18.19.05:558][380]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.19.09:457][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_36
+[2020.01.10-18.19.09:457][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_36 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_36
+[2020.01.10-18.19.09:457][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_36.MaterialExpressionLinearInterpolate_43"')'
+[2020.01.10-18.19.09:457][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_41 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_41
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_41 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_41
+[2020.01.10-18.19.09:458][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_41.MaterialExpressionLinearInterpolate_11"')'
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_5
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_5
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_5 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_5
+[2020.01.10-18.19.09:458][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_5.MaterialExpressionConstant_15"')'
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_6
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_6
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_6 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_6
+[2020.01.10-18.19.09:458][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_6.MaterialExpressionConstant_16"')'
+[2020.01.10-18.19.09:458][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_50 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_50
+[2020.01.10-18.19.09:458][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_50.MaterialExpressionMultiply_9"')'
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_47 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_47
+[2020.01.10-18.19.09:459][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_47.MaterialExpressionLinearInterpolate_12"')'
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_21 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_21
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_21 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_21
+[2020.01.10-18.19.09:459][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'"MaterialGraphNode_21.MaterialExpressionConstant3Vector_6"')'
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_12 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_12
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_12 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_12
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_12 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_12
+[2020.01.10-18.19.09:459][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionClamp'"MaterialGraphNode_12.MaterialExpressionClamp_2"')'
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_39 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_39
+[2020.01.10-18.19.09:459][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_39 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_39
+[2020.01.10-18.19.09:459][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_39.MaterialExpressionMultiply_7"')'
+[2020.01.10-18.19.09:460][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_39 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_39
+[2020.01.10-18.19.09:460][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_39 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_39
+[2020.01.10-18.19.09:460][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_39.MaterialExpressionMultiply_7"')'
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_17
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_17
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_17 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_17
+[2020.01.10-18.19.09:461][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_17.MaterialExpressionAdd_1"')'
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_8 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_8
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_8 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_8
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_8 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_8
+[2020.01.10-18.19.09:461][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_8.MaterialExpressionConstant_17"')'
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_9 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_9
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_9 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_9
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_9 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_9
+[2020.01.10-18.19.09:461][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionSubtract'"MaterialGraphNode_9.MaterialExpressionSubtract_1"')'
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_11 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_11
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_11 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_11
+[2020.01.10-18.19.09:461][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_11 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_11
+[2020.01.10-18.19.09:461][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_11.MaterialExpressionConstant_18"')'
+[2020.01.10-18.19.09:462][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_10 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_10
+[2020.01.10-18.19.09:462][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_10 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_10
+[2020.01.10-18.19.09:462][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_10 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_10
+[2020.01.10-18.19.09:462][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionDivide'"MaterialGraphNode_10.MaterialExpressionDivide_1"')'
+[2020.01.10-18.19.09:462][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_19 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_19
+[2020.01.10-18.19.09:462][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_19 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_19
+[2020.01.10-18.19.09:462][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_19 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_19
+[2020.01.10-18.19.09:462][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_19.MaterialExpressionMultiply_6"')'
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_15
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_15
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_15
+[2020.01.10-18.19.09:463][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_15.MaterialExpressionConstant_19"')'
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_16 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_16
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_16 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_16
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_16 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_16
+[2020.01.10-18.19.09:463][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_16.MaterialExpressionConstant_20"')'
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_13 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_13
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_13 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_13
+[2020.01.10-18.19.09:463][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_13 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_13
+[2020.01.10-18.19.09:463][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_13.MaterialExpressionTextureSample_8"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_14 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_14
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_14 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_14
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_14 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_14
+[2020.01.10-18.19.09:464][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_14.MaterialExpressionLinearInterpolate_10"')'
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_7
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_7
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_7 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_7
+[2020.01.10-18.19.09:464][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionPixelDepth'"MaterialGraphNode_7.MaterialExpressionPixelDepth_1"',Mask=1,MaskR=1)'
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_18 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_18
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_18 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_18
+[2020.01.10-18.19.09:464][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_18 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_18
+[2020.01.10-18.19.09:464][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_18.MaterialExpressionTextureCoordinate_2"')'
+[2020.01.10-18.19.09:465][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_20 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_20
+[2020.01.10-18.19.09:465][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_20 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_20
+[2020.01.10-18.19.09:465][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_20.MaterialExpressionConstant_21"')'
+[2020.01.10-18.19.09:465][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_24 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_24
+[2020.01.10-18.19.09:465][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_24 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_24
+[2020.01.10-18.19.09:465][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_24.MaterialExpressionMultiply_57"')'
+[2020.01.10-18.19.09:466][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_23 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_23
+[2020.01.10-18.19.09:466][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_23 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_23
+[2020.01.10-18.19.09:466][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_23.MaterialExpressionTextureCoordinate_28"')'
+[2020.01.10-18.19.09:466][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_22 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_22
+[2020.01.10-18.19.09:466][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_22 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_22
+[2020.01.10-18.19.09:466][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_22.MaterialExpressionTextureSample_41"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.19.09:466][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_28 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_28
+[2020.01.10-18.19.09:466][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_28 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_28
+[2020.01.10-18.19.09:466][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_28.MaterialExpressionMultiply_58"')'
+[2020.01.10-18.19.09:467][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_27 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_27
+[2020.01.10-18.19.09:467][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_27 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_27
+[2020.01.10-18.19.09:467][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_27.MaterialExpressionTextureCoordinate_29"')'
+[2020.01.10-18.19.09:467][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_26 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_26
+[2020.01.10-18.19.09:467][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_26 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_26
+[2020.01.10-18.19.09:467][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_26.MaterialExpressionTextureSample_42"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.19.09:468][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_32 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_32
+[2020.01.10-18.19.09:468][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_32 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_32
+[2020.01.10-18.19.09:468][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_32.MaterialExpressionMultiply_59"')'
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_31 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_31
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_31 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_31
+[2020.01.10-18.19.09:469][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_31.MaterialExpressionTextureCoordinate_30"')'
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_30 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_30
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_30 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_30
+[2020.01.10-18.19.09:469][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_30.MaterialExpressionTextureSample_43"',OutputIndex=1,Mask=1,MaskR=1)'
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_29 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_29
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_29 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_29
+[2020.01.10-18.19.09:469][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_29.MaterialExpressionAdd_22"')'
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_33 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_33
+[2020.01.10-18.19.09:469][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_33 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_33
+[2020.01.10-18.19.09:469][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_33.MaterialExpressionAdd_23"')'
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_25 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_25
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_25 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_25
+[2020.01.10-18.19.09:470][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionAdd'"MaterialGraphNode_25.MaterialExpressionAdd_21"')'
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_34 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_34
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_34 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_34
+[2020.01.10-18.19.09:470][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_34.MaterialExpressionMultiply_60"')'
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_37
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_37 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_37
+[2020.01.10-18.19.09:470][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'"MaterialGraphNode_37.MaterialExpressionConstant3Vector_15"')'
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_35
+[2020.01.10-18.19.09:470][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_35
+[2020.01.10-18.19.09:470][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_35.MaterialExpressionMultiply_61"')'
+[2020.01.10-18.19.09:471][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_38 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_38
+[2020.01.10-18.19.09:471][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_38 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_38
+[2020.01.10-18.19.09:471][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_38.MaterialExpressionTextureCoordinate_3"')'
+[2020.01.10-18.19.09:471][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_40 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_40
+[2020.01.10-18.19.09:471][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_40 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_40
+[2020.01.10-18.19.09:471][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_40.MaterialExpressionConstant_22"')'
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.19.09:472][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_3.MaterialExpressionTextureSample_6"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_42
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_42
+[2020.01.10-18.19.09:472][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_42.MaterialExpressionTextureSample_9"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_45 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_45
+[2020.01.10-18.19.09:472][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionClamp'"MaterialGraphNode_45.MaterialExpressionClamp_3"')'
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_44 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_44
+[2020.01.10-18.19.09:472][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_44 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_44
+[2020.01.10-18.19.09:472][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_44.MaterialExpressionMultiply_8"')'
+[2020.01.10-18.19.09:473][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_38 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_38
+[2020.01.10-18.19.09:473][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_38 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_38
+[2020.01.10-18.19.09:473][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureCoordinate'"MaterialGraphNode_38.MaterialExpressionTextureCoordinate_3"')'
+[2020.01.10-18.19.09:473][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_43 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_43
+[2020.01.10-18.19.09:473][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_43 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_43
+[2020.01.10-18.19.09:473][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'"MaterialGraphNode_43.MaterialExpressionConstant_23"')'
+[2020.01.10-18.19.09:473][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_46 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_46
+[2020.01.10-18.19.09:474][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_46.MaterialExpressionLinearInterpolate_45"')'
+[2020.01.10-18.19.09:474][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_35
+[2020.01.10-18.19.09:474][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_35
+[2020.01.10-18.19.09:474][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_35.MaterialExpressionMultiply_61"')'
+[2020.01.10-18.19.09:474][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_4 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_4
+[2020.01.10-18.19.09:474][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_4 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_4
+[2020.01.10-18.19.09:474][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_4 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_4
+[2020.01.10-18.19.09:474][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_4.MaterialExpressionTextureSample_7"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.19.09:474][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_48 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_48
+[2020.01.10-18.19.09:474][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_48.MaterialExpressionTextureSample_10"',Mask=1,MaskR=1,MaskG=1,MaskB=1)'
+[2020.01.10-18.19.09:474][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_45 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_45
+[2020.01.10-18.19.09:474][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionClamp'"MaterialGraphNode_45.MaterialExpressionClamp_3"')'
+[2020.01.10-18.19.09:475][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_44 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_44
+[2020.01.10-18.19.09:475][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_44 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_44
+[2020.01.10-18.19.09:475][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_44.MaterialExpressionMultiply_8"')'
+[2020.01.10-18.19.09:475][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.19.09:475][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.M_Metal_Rust:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.19.09:475][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_3
+[2020.01.10-18.19.09:475][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_3.MaterialExpressionTextureSample_6"',OutputIndex=4,Mask=1,MaskA=1)'
+[2020.01.10-18.19.09:475][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_42
+[2020.01.10-18.19.09:475][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_42 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_42
+[2020.01.10-18.19.09:475][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureSample'"MaterialGraphNode_42.MaterialExpressionTextureSample_9"',OutputIndex=4,Mask=1,MaskA=1)'
+[2020.01.10-18.19.09:476][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_45 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_45
+[2020.01.10-18.19.09:476][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionClamp'"MaterialGraphNode_45.MaterialExpressionClamp_3"')'
+[2020.01.10-18.19.09:476][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_35
+[2020.01.10-18.19.09:476][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.M_Ground_Moss:MaterialGraph_0.MaterialGraphNode_35 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_35
+[2020.01.10-18.19.09:476][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionMultiply'"MaterialGraphNode_35.MaterialExpressionMultiply_61"')'
+[2020.01.10-18.19.09:476][790]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Landscape:MaterialGraph_0.MaterialGraphNode_49 or MaterialGraphNode /Engine/Transient.M_Rock_Basalt:MaterialGraph_0.MaterialGraphNode_49
+[2020.01.10-18.19.09:476][790]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionLinearInterpolate'"MaterialGraphNode_49.MaterialExpressionLinearInterpolate_13"')'
+[2020.01.10-18.19.09:525][790]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.19.09:541][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2020.01.10-18.19.09:546][790]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.09:546][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2020.01.10-18.19.09:552][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2020.01.10-18.19.09:559][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2020.01.10-18.19.09:564][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_41, compiling. 
+[2020.01.10-18.19.09:573][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_42, compiling. 
+[2020.01.10-18.19.09:581][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_43, compiling. 
+[2020.01.10-18.19.09:590][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_15, compiling. 
+[2020.01.10-18.19.09:598][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2020.01.10-18.19.09:607][790]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2020.01.10-18.19.10:147][818]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.19.11:360][896]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.12:005][937]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.19.12:005][937]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.19.12:005][937]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.19.12:005][937]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.19.12:360][960]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.19.23:893][255]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.19.23:910][255]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.23:913][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2020.01.10-18.19.23:949][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2020.01.10-18.19.23:983][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2020.01.10-18.19.24:021][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
+[2020.01.10-18.19.24:060][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_41, compiling. 
+[2020.01.10-18.19.24:098][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_42, compiling. 
+[2020.01.10-18.19.24:138][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_43, compiling. 
+[2020.01.10-18.19.24:172][255]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.19.24:177][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_15, compiling. 
+[2020.01.10-18.19.24:211][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2020.01.10-18.19.24:252][255]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2020.01.10-18.19.24:414][268]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.19.25:686][400]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.26:427][484]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.19.26:427][484]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.19.26:427][484]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.19.26:427][484]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.19.26:656][508]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.19.40:199][ 82]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.19.40:220][ 83]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.40:814][142]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.19.42:314][283]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.19.42:314][283]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.19.42:314][283]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.19.42:314][283]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.19.48:838][ 51]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.19.48:852][ 51]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.49:435][112]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.01.10-18.19.50:909][260]MaterialEditorStats: Base pass shader: 106 instructions
+[2020.01.10-18.19.50:909][260]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 180 instructions
+[2020.01.10-18.19.50:909][260]MaterialEditorStats: Base pass vertex shader: 41 instructions
+[2020.01.10-18.19.50:909][260]MaterialEditorStats: Texture samplers: 3/16
+[2020.01.10-18.19.55:676][817]LogMaterialEditor: Saving and Compiling material Landscape
+[2020.01.10-18.19.56:296][817]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.19.56:343][817]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.01.10-18.19.56:421][817]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.19.56:442][817]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.19.56:502][817]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.01.10-18.19.56:533][817]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.01.10-18.19.57:995][817]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.01.10-18.19.57:995][817]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.01.10-18.19.57:997][817]TextureStreamingBuild: Display: Compiling optional shaders took 1.495 seconds.
+[2020.01.10-18.19.58:044][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.01.10-18.20.00:507][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Landscape" FILE="../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Material/Landscape.uasset" SILENT=true
+[2020.01.10-18.20.00:572][817]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Landscape1CD6E7774336D395E4DED5AA320B91C5.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Material/Landscape.uasset'
+[2020.01.10-18.20.30:466][293]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.20.30:607][293]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.20.30:622][293]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.20.30:666][293]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.20.30:699][293]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.20.53:107][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.20.58:994][980]LogSlate: Window 'Message' being destroyed
+[2020.01.10-18.21.00:639][117]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.21.01:898][117]LogSlate: Window 'Message' being destroyed
+[2020.01.10-18.21.16:927][381]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.21.18:160][381]LogSlate: Window 'Message' being destroyed
+[2020.01.10-18.23.01:621][131]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.23.03:198][131]LogSlate: Window 'Message' being destroyed
+[2020.01.10-18.23.05:218][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.23.06:892][300]LogSlate: Window 'Message' being destroyed
+[2020.01.10-18.23.10:558][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.23.16:089][921]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2020.01.10-18.23.16:110][921]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.01.10-18.23.16:128][921]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.23.16:206][921]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2020.01.10-18.23.16:267][921]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2020.01.10-18.23.16:321][921]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2020.01.10-18.23.16:360][921]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.01.10-18.23.16:409][921]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2020.01.10-18.23.16:466][921]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2020.01.10-18.23.16:521][921]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2020.01.10-18.23.16:583][921]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2020.01.10-18.23.16:644][921]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.01.10-18.23.16:702][921]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2020.01.10-18.23.16:755][921]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2020.01.10-18.23.16:821][921]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2020.01.10-18.23.16:872][921]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2020.01.10-18.23.16:930][921]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2020.01.10-18.23.16:989][921]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2020.01.10-18.23.17:051][921]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2020.01.10-18.23.17:110][921]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2020.01.10-18.23.17:180][921]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2020.01.10-18.23.17:239][921]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2020.01.10-18.23.17:299][921]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2020.01.10-18.23.17:356][921]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2020.01.10-18.23.17:425][921]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2020.01.10-18.23.17:494][921]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2020.01.10-18.23.17:560][921]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2020.01.10-18.23.17:619][921]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2020.01.10-18.23.17:681][921]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2020.01.10-18.23.17:742][921]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2020.01.10-18.23.17:796][921]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2020.01.10-18.23.17:856][921]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2020.01.10-18.23.17:916][921]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2020.01.10-18.23.17:977][921]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 64X64)
+[2020.01.10-18.23.18:031][921]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2020.01.10-18.23.18:091][921]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 64X64)
+[2020.01.10-18.23.18:148][921]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 64X64)
+[2020.01.10-18.23.18:199][921]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 64X64)
+[2020.01.10-18.23.18:258][921]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 64X64)
+[2020.01.10-18.23.18:319][921]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 64X64)
+[2020.01.10-18.23.18:383][921]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 64X64)
+[2020.01.10-18.23.18:439][921]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 64X64)
+[2020.01.10-18.23.18:492][921]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 64X64)
+[2020.01.10-18.23.18:551][921]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 64X64)
+[2020.01.10-18.23.18:612][921]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 64X64)
+[2020.01.10-18.23.18:671][921]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 64X64)
+[2020.01.10-18.23.18:742][921]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2020.01.10-18.23.18:813][921]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2020.01.10-18.23.18:885][921]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2020.01.10-18.23.18:935][921]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2020.01.10-18.23.18:996][921]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2020.01.10-18.23.19:047][921]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2020.01.10-18.23.19:103][921]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2020.01.10-18.23.19:153][921]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2020.01.10-18.23.19:201][921]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2020.01.10-18.23.19:250][921]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 64X64)
+[2020.01.10-18.23.19:307][921]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 64X64)
+[2020.01.10-18.23.19:346][921]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 64X64)
+[2020.01.10-18.23.19:392][921]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 64X64)
+[2020.01.10-18.23.19:437][921]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 64X64)
+[2020.01.10-18.23.19:486][921]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 64X64)
+[2020.01.10-18.23.19:530][921]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 64X64)
+[2020.01.10-18.23.19:578][921]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 64X64)
+[2020.01.10-18.23.19:623][921]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 64X64)
+[2020.01.10-18.23.19:671][921]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 64X64)
+[2020.01.10-18.23.19:715][921]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 64X64)
+[2020.01.10-18.23.54:410][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.01.10-18.23.54:660][812]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2020.01.10-18.23.54:663][812]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2020.01.10-18.23.54:664][812]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2020.01.10-18.23.54:666][812]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2020.01.10-18.23.54:667][812]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2020.01.10-18.23.54:669][812]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2020.01.10-18.23.54:670][812]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2020.01.10-18.23.54:672][812]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2020.01.10-18.23.54:673][812]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2020.01.10-18.23.54:675][812]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2020.01.10-18.23.54:676][812]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2020.01.10-18.23.54:678][812]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2020.01.10-18.23.54:679][812]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2020.01.10-18.23.54:681][812]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2020.01.10-18.23.54:683][812]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 64X64)
+[2020.01.10-18.23.54:684][812]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2020.01.10-18.23.54:685][812]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2020.01.10-18.23.54:687][812]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 64X64)
+[2020.01.10-18.23.54:689][812]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 64X64)
+[2020.01.10-18.23.54:690][812]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2020.01.10-18.23.54:692][812]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 64X64)
+[2020.01.10-18.23.54:693][812]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 64X64)
+[2020.01.10-18.23.54:695][812]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 64X64)
+[2020.01.10-18.23.54:696][812]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 64X64)
+[2020.01.10-18.23.54:697][812]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2020.01.10-18.23.54:699][812]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2020.01.10-18.23.54:700][812]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2020.01.10-18.23.54:702][812]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 64X64)
+[2020.01.10-18.23.54:703][812]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 64X64)
+[2020.01.10-18.23.54:704][812]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 64X64)
+[2020.01.10-18.23.54:706][812]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 64X64)
+[2020.01.10-18.23.54:707][812]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 64X64)
+[2020.01.10-18.23.54:709][812]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2020.01.10-18.23.54:710][812]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 64X64)
+[2020.01.10-18.23.54:712][812]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 64X64)
+[2020.01.10-18.23.54:713][812]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 64X64)
+[2020.01.10-18.23.54:715][812]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 64X64)
+[2020.01.10-18.23.54:716][812]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 64X64)
+[2020.01.10-18.23.54:718][812]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 64X64)
+[2020.01.10-18.23.54:719][812]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 64X64)
+[2020.01.10-18.23.54:721][812]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 64X64)
+[2020.01.10-18.23.54:722][812]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 64X64)
+[2020.01.10-18.23.54:724][812]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 64X64)
+[2020.01.10-18.23.54:725][812]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 64X64)
+[2020.01.10-18.23.54:727][812]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 64X64)
+[2020.01.10-18.23.54:728][812]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2020.01.10-18.23.54:730][812]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2020.01.10-18.23.54:731][812]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 64X64)
+[2020.01.10-18.23.54:732][812]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 64X64)
+[2020.01.10-18.23.54:734][812]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2020.01.10-18.23.54:735][812]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2020.01.10-18.23.54:737][812]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 64X64)
+[2020.01.10-18.23.54:739][812]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 64X64)
+[2020.01.10-18.23.54:740][812]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 64X64)
+[2020.01.10-18.23.54:742][812]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 64X64)
+[2020.01.10-18.23.54:743][812]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 64X64)
+[2020.01.10-18.23.54:745][812]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 64X64)
+[2020.01.10-18.23.54:746][812]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 64X64)
+[2020.01.10-18.23.54:747][812]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 64X64)
+[2020.01.10-18.23.54:749][812]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 64X64)
+[2020.01.10-18.23.54:750][812]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 64X64)
+[2020.01.10-18.23.54:751][812]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 64X64)
+[2020.01.10-18.23.54:752][812]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 64X64)
+[2020.01.10-18.23.54:754][812]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 64X64)
+[2020.01.10-18.23.55:328][812]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Untitled_1_Auto382620CC643F2F04A3CFCE18897D8CC62.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2020.01.10-18.23.55:334][812]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.955
+[2020.01.10-18.23.55:334][812]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.955
+[2020.01.10-18.23.55:338][812]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Untitled_1_sharedassets/Grass_LayerInfo] ([1] browsable assets)...
+[2020.01.10-18.23.55:338][812]OBJ SavePackage: Finished generating thumbnails for package [/Game/Untitled_1_sharedassets/Grass_LayerInfo]
+[2020.01.10-18.23.55:343][812]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Grass_LayerInfo_Auto34260964643E8A168568AF0A96774FA93.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Game/Untitled_1_sharedassets/Grass_LayerInfo_Auto3.uasset'
+[2020.01.10-18.23.55:344][812]LogFileHelpers: Auto-saving content packages took 0.008
+[2020.01.10-18.24.06:172][  3]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2020.01.10-18.24.10:811][241]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2020.01.10-18.24.13:942][355]LogSlate: Window 'Create New Landscape Layer Info Object' being destroyed
+[2020.01.10-18.24.17:485][582]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 64X64)
+[2020.01.10-18.24.17:499][582]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.24.41:149][403]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 64X64)
+[2020.01.10-18.24.44:479][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.24.46:758][799]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.24.46:804][799]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 64X64)
+[2020.01.10-18.24.46:829][799]LogMaterial: Display: Missing cached shader map for material Landscape, compiling. 
+[2020.01.10-18.24.46:904][799]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 64X64)
+[2020.01.10-18.24.46:966][800]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 64X64)
+[2020.01.10-18.24.59:653][552]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 64X64)
+[2020.01.10-18.25.01:346][673]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 64X64)
+[2020.01.10-18.25.01:849][699]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 64X64)
+[2020.01.10-18.25.02:438][737]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 64X64)
+[2020.01.10-18.25.13:887][593]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.27.56:134][357]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.31.43:628][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.31.54:430][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.10-18.32.46:902][268]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.01.10-18.32.59:061][ 93]LogSlate: Window 'Color Picker' being destroyed
+[2020.01.10-18.33.55:635][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.01.10-18.33.55:943][865]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 64X64)
+[2020.01.10-18.33.55:944][865]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 64X64)
+[2020.01.10-18.33.55:945][865]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 64X64)
+[2020.01.10-18.33.55:946][865]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 64X64)
+[2020.01.10-18.33.55:949][865]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 64X64)
+[2020.01.10-18.33.55:950][865]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 64X64)
+[2020.01.10-18.33.55:951][865]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 64X64)
+[2020.01.10-18.33.55:952][865]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 64X64)
+[2020.01.10-18.33.55:953][865]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 64X64)
+[2020.01.10-18.33.55:955][865]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 64X64)
+[2020.01.10-18.33.55:956][865]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 64X64)
+[2020.01.10-18.33.55:957][865]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 64X64)
+[2020.01.10-18.33.55:958][865]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 64X64)
+[2020.01.10-18.33.55:959][865]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 64X64)
+[2020.01.10-18.33.55:963][865]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 64X64)
+[2020.01.10-18.33.55:964][865]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 64X64)
+[2020.01.10-18.33.55:965][865]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 64X64)
+[2020.01.10-18.33.55:968][865]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 64X64)
+[2020.01.10-18.33.55:969][865]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 64X64)
+[2020.01.10-18.33.56:702][865]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Untitled_1_Auto48D269FB543C03CB716B183956E5BEC15.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
+[2020.01.10-18.33.56:706][865]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 1.130
+[2020.01.10-18.33.56:707][865]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.130
+[2020.01.10-18.33.56:710][865]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Untitled_1_sharedassets/Ground_LayerInfo] ([1] browsable assets)...
+[2020.01.10-18.33.56:710][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/Untitled_1_sharedassets/Ground_LayerInfo]
+[2020.01.10-18.33.56:714][865]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Ground_LayerInfo_Auto44B5551B447DAE18E7D4A1F88C39F10A8.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Game/Untitled_1_sharedassets/Ground_LayerInfo_Auto4.uasset'
+[2020.01.10-18.33.56:716][865]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Untitled_1_sharedassets/Snow_LayerInfo] ([1] browsable assets)...
+[2020.01.10-18.33.56:716][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/Untitled_1_sharedassets/Snow_LayerInfo]
+[2020.01.10-18.33.56:719][865]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Snow_LayerInfo_Auto421B71B4C4EDD1C1ED5A7A4886DE1E591.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Autosaves/Game/Untitled_1_sharedassets/Snow_LayerInfo_Auto4.uasset'
+[2020.01.10-18.33.56:745][865]LogFileHelpers: Auto-saving content packages took 0.036
+[2020.01.10-18.39.00:199][317]LogSlate: Window 'Save Level As' being destroyed
+[2020.01.10-18.39.00:445][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.01.10-18.39.00:472][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.01.10-18.39.01:426][317]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/TerrainA2AFC0784AD0E30B10FF78AF97EDF2AE.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Levels/Terrain.umap'
+[2020.01.10-18.39.01:484][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Terrain_BuiltData" FILE="../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Levels/Terrain_BuiltData.uasset" SILENT=true
+[2020.01.10-18.39.01:497][317]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Terrain_BuiltDataD5EC44FA4A8BC335787BCA92E10B2C84.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Levels/Terrain_BuiltData.uasset'
+[2020.01.10-18.39.01:507][317]LogFileHelpers: Saving map 'Terrain' took 1.258
+[2020.01.10-18.42.08:186][765]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.01.10-18.42.09:125][765]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/TerrainC35D2AD64D23FB2BB568F4A9E4C75719.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Levels/Terrain.umap'
+[2020.01.10-18.42.09:158][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Terrain_BuiltData" FILE="../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Levels/Terrain_BuiltData.uasset" SILENT=true
+[2020.01.10-18.42.09:190][765]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Terrain_BuiltDataF0141D084821AAD4C30AC7924EA04EDE.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Levels/Terrain_BuiltData.uasset'
+[2020.01.10-18.42.14:798][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.01.10-18.42.16:479][401]LogSlate: Window 'Save Content' being destroyed
+[2020.01.10-18.42.16:500][401]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Grass_LayerInfoA0E9904640EDBBD1AB0D0D8FF8E1C15E.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Untitled_1_sharedassets/Grass_LayerInfo.uasset'
+[2020.01.10-18.42.16:510][401]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Ground_LayerInfo862C910E4ED22B5CD8474DB4C5E4214E.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Untitled_1_sharedassets/Ground_LayerInfo.uasset'
+[2020.01.10-18.42.16:531][401]LogSavePackage: Moving '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Saved/Snow_LayerInfoCF3B1B344793F087C4D556A975AA521E.tmp' to '../../../../../../Users/ALUMNO/Documents/GitHub/UntitledHorrorGame/NoNameProject/Content/Untitled_1_sharedassets/Snow_LayerInfo.uasset'
+[2020.01.10-18.42.16:835][401]LogSlate: Window 'NoNameProject - Unreal Editor' being destroyed
+[2020.01.10-18.42.17:150][402]Cmd: QUIT_EDITOR
+[2020.01.10-18.42.17:390][402]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.01.10-18.42.17:439][402]LogExit: Preparing to exit.
+[2020.01.10-18.42.18:763][402]LogExit: Editor shut down
+[2020.01.10-18.42.18:763][402]LogExit: Transaction tracking system shut down
+[2020.01.10-18.42.19:669][402]LogExit: Object subsystem successfully closed.
+[2020.01.10-18.42.19:810][402]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.01.10-18.42.19:910][402]LogD3D11RHI: Shutdown
+[2020.01.10-18.42.19:910][402]LogD3D11RHI: CleanupD3DDevice
+[2020.01.10-18.42.19:937][402]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.01.10-18.42.19:937][402]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.10-18.42.19:945][402]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.01.10-18.42.19:945][402]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.10-18.42.19:946][402]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.01.10-18.42.19:946][402]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.01.10-18.42.19:952][402]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.01.10-18.42.20:578][402]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (650)
+[2020.01.10-18.42.20:578][402]LogModuleManager: Shutting down and abandoning module NewLevelDialog (648)
+[2020.01.10-18.42.20:578][402]LogModuleManager: Shutting down and abandoning module NoNameProject (646)
+[2020.01.10-18.42.20:578][402]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (644)
+[2020.01.10-18.42.20:578][402]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2020.01.10-18.42.20:580][402]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2020.01.10-18.42.20:580][402]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2020.01.10-18.42.20:580][402]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2020.01.10-18.42.20:581][402]LogModuleManager: Shutting down and abandoning module SceneOutliner (634)
+[2020.01.10-18.42.20:581][402]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.01.10-18.42.20:581][402]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.01.10-18.42.20:585][402]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.01.10-18.42.20:585][402]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.01.10-18.42.20:595][402]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.01.10-18.42.20:595][402]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.01.10-18.42.20:595][402]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.01.10-18.42.20:595][402]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.01.10-18.42.20:595][402]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.01.10-18.42.20:596][402]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.01.10-18.42.20:596][402]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.01.10-18.42.20:596][402]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.01.10-18.42.20:596][402]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.01.10-18.42.20:596][402]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.01.10-18.42.20:596][402]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.01.10-18.42.20:596][402]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.01.10-18.42.20:609][402]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.01.10-18.42.20:610][402]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.01.10-18.42.20:610][402]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.01.10-18.42.20:614][402]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.01.10-18.42.20:614][402]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.01.10-18.42.20:614][402]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.01.10-18.42.20:614][402]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.01.10-18.42.20:614][402]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.01.10-18.42.20:614][402]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.01.10-18.42.20:615][402]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.01.10-18.42.20:616][402]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.01.10-18.42.20:621][402]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.01.10-18.42.20:626][402]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.01.10-18.42.20:636][402]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.01.10-18.42.20:636][402]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.01.10-18.42.20:636][402]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.01.10-18.42.20:636][402]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.01.10-18.42.20:636][402]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.01.10-18.42.21:629][402]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.01.10-18.42.21:629][402]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.01.10-18.42.21:629][402]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.01.10-18.42.21:629][402]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.01.10-18.42.21:630][402]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.01.10-18.42.21:630][402]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.01.10-18.42.21:657][402]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.01.10-18.42.21:657][402]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.01.10-18.42.21:657][402]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.01.10-18.42.21:657][402]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.01.10-18.42.21:657][402]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.01.10-18.42.21:657][402]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.01.10-18.42.21:666][402]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.01.10-18.42.21:666][402]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.01.10-18.42.21:666][402]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.01.10-18.42.21:666][402]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.01.10-18.42.21:666][402]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.01.10-18.42.21:666][402]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.01.10-18.42.21:677][402]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.01.10-18.42.21:690][402]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.01.10-18.42.21:690][402]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.01.10-18.42.21:700][402]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.01.10-18.42.21:700][402]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.01.10-18.42.21:744][402]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.01.10-18.42.21:744][402]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.01.10-18.42.21:753][402]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.01.10-18.42.21:774][402]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.01.10-18.42.21:774][402]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.01.10-18.42.21:774][402]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.01.10-18.42.21:774][402]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.01.10-18.42.21:790][402]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.01.10-18.42.21:790][402]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.01.10-18.42.21:791][402]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.01.10-18.42.21:791][402]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.01.10-18.42.21:796][402]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.01.10-18.42.21:797][402]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.01.10-18.42.21:797][402]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.01.10-18.42.21:797][402]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.01.10-18.42.21:797][402]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.01.10-18.42.21:806][402]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.01.10-18.42.21:806][402]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.01.10-18.42.21:806][402]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.01.10-18.42.21:817][402]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.01.10-18.42.21:817][402]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.01.10-18.42.21:828][402]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.01.10-18.42.21:828][402]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.01.10-18.42.21:828][402]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.01.10-18.42.21:828][402]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.01.10-18.42.21:828][402]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.01.10-18.42.21:829][402]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.01.10-18.42.21:829][402]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.01.10-18.42.21:829][402]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.01.10-18.42.21:829][402]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.01.10-18.42.21:829][402]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.01.10-18.42.21:845][402]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.01.10-18.42.21:845][402]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.01.10-18.42.21:845][402]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.01.10-18.42.21:845][402]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.01.10-18.42.21:855][402]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.01.10-18.42.21:871][402]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.01.10-18.42.21:881][402]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.01.10-18.42.21:882][402]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.01.10-18.42.21:882][402]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.01.10-18.42.21:882][402]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.01.10-18.42.21:882][402]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.01.10-18.42.21:882][402]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.01.10-18.42.21:886][402]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.01.10-18.42.21:891][402]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.01.10-18.42.21:892][402]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.01.10-18.42.21:897][402]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.01.10-18.42.21:897][402]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.01.10-18.42.21:897][402]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.01.10-18.42.21:897][402]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.01.10-18.42.21:898][402]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.01.10-18.42.21:898][402]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.01.10-18.42.21:898][402]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.01.10-18.42.21:898][402]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.01.10-18.42.21:906][402]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.01.10-18.42.21:916][402]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.01.10-18.42.21:920][402]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.01.10-18.42.21:920][402]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.01.10-18.42.21:920][402]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.01.10-18.42.21:921][402]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.01.10-18.42.21:921][402]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.01.10-18.42.21:921][402]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.01.10-18.42.21:921][402]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.01.10-18.42.21:921][402]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.01.10-18.42.21:929][402]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.01.10-18.42.21:929][402]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.01.10-18.42.21:929][402]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.01.10-18.42.21:930][402]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.01.10-18.42.21:930][402]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.01.10-18.42.21:930][402]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.01.10-18.42.21:930][402]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.01.10-18.42.22:031][402]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.01.10-18.42.22:138][402]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.01.10-18.42.22:138][402]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.01.10-18.42.22:138][402]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.01.10-18.42.22:138][402]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.01.10-18.42.22:138][402]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.01.10-18.42.22:146][402]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.01.10-18.42.22:146][402]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.01.10-18.42.22:146][402]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.01.10-18.42.22:147][402]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.01.10-18.42.22:158][402]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.01.10-18.42.22:158][402]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.01.10-18.42.22:158][402]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.01.10-18.42.22:158][402]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.01.10-18.42.22:179][402]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.01.10-18.42.22:191][402]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.01.10-18.42.22:191][402]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.01.10-18.42.22:192][402]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.01.10-18.42.22:192][402]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.01.10-18.42.22:195][402]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.01.10-18.42.22:198][402]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.01.10-18.42.22:199][402]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.01.10-18.42.22:199][402]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.01.10-18.42.22:199][402]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.01.10-18.42.22:199][402]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.01.10-18.42.22:203][402]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.01.10-18.42.22:212][402]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.01.10-18.42.22:212][402]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.01.10-18.42.22:225][402]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.01.10-18.42.22:225][402]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.01.10-18.42.22:231][402]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.01.10-18.42.22:231][402]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.01.10-18.42.22:238][402]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.01.10-18.42.22:238][402]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.01.10-18.42.22:267][402]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.01.10-18.42.22:268][402]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.01.10-18.42.22:277][402]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.01.10-18.42.22:277][402]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.01.10-18.42.22:282][402]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.01.10-18.42.22:287][402]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.01.10-18.42.22:296][402]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.01.10-18.42.22:304][402]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.01.10-18.42.22:304][402]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.01.10-18.42.22:313][402]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.01.10-18.42.22:316][402]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.01.10-18.42.22:317][402]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.01.10-18.42.22:328][402]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.01.10-18.42.22:407][402]LogDerivedDataCache: Shutdown
+[2020.01.10-18.42.22:407][402]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.01.10-18.42.22:407][402]LogXGEController: Cleaning working directory: C:/Users/ALUMNO/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.01.10-18.42.22:408][402]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.01.10-18.42.22:408][402]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.01.10-18.42.22:409][402]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.01.10-18.42.22:409][402]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.01.10-18.42.22:446][402]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.01.10-18.42.22:446][402]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.01.10-18.42.22:450][402]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.01.10-18.42.22:450][402]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.01.10-18.42.22:450][402]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.01.10-18.42.22:450][402]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.01.10-18.42.22:450][402]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.01.10-18.42.22:451][402]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.01.10-18.42.22:451][402]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.01.10-18.42.22:451][402]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.01.10-18.42.22:451][402]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.01.10-18.42.22:451][402]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.01.10-18.42.22:451][402]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.01.10-18.42.22:453][402]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.01.10-18.42.22:453][402]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.01.10-18.42.22:453][402]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.01.10-18.42.22:454][402]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.01.10-18.42.22:454][402]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.01.10-18.42.22:456][402]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.01.10-18.42.22:456][402]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.01.10-18.42.22:459][402]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.01.10-18.42.22:459][402]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.01.10-18.42.22:481][402]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.01.10-18.42.22:482][402]LogHMD: Freeing OpenVRDLLHandle.
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.01.10-18.42.22:482][402]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.01.10-18.42.22:484][402]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.01.10-18.42.22:505][402]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.01.10-18.42.22:582][402]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.01.10-18.42.22:582][402]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.01.10-18.42.22:583][402]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB5922E4E-4F63-EF5E-800D-269F9949143B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=f05502734a2b9e7071086d8b8ed7aa94%7Ca1c0250953d54870a6ef1dcafc69e936%7Ca60a18eb-806c-4a8d-93d6-15c9fe10a266&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.01.10-18.42.22:592][402]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.01.10-18.42.22:596][402]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.01.10-18.42.22:625][402]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.01.10-18.42.22:632][402]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.01.10-18.42.22:632][402]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.01.10-18.42.22:633][402]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.01.10-18.42.22:740][402]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.01.10-18.42.22:740][402]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.01.10-18.42.22:757][402]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.01.10-18.42.22:757][402]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.01.10-18.42.22:757][402]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.01.10-18.42.22:757][402]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.01.10-18.42.22:768][402]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.01.10-18.42.22:816][402]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.01.10-18.42.22:836][402]LogExit: Exiting.
+[2020.01.10-18.42.22:878][402]Log file closed, 01/10/20 12:42:22

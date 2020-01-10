@@ -1,0 +1,9 @@
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\Definitions.NoNameProject.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject/Waypoint.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
+c:\users\alumno\documents\github\untitledhorrorgame\nonameproject\intermediate\build\win64\ue4editor\inc\nonameproject\Waypoint.generated.h

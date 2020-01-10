@@ -1,20 +1,51 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame).
+  Creating makefile for NoNameProjectEditor (ini files are newer than makefile)
   Parsing headers for NoNameProjectEditor
-    Running UnrealHeaderTool "D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\NoNameProject.uproject" "D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for NoNameProjectEditor in 6.8985437 seconds
-  Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 12 processes...
-    [1/6] OtherDoor.cpp
-    [2/6] Grabber.gen.cpp
-    [3/6] Grabber.cpp
-D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(112): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
-D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(135): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: see declaration of 'UPhysicsHandleComponent::GrabComponent'
-    [4/6] UE4Editor-NoNameProject-0004.lib
-       Creating library D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0004.lib and object D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0004.exp
-    [5/6] UE4Editor-NoNameProject-0004.dll
-       Creating library D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0004.suppressed.lib and object D:\Users\Adrian\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0004.suppressed.exp
-    [6/6] NoNameProjectEditor.target
-  Total time in Parallel executor: 2.49 seconds
-  Total execution time: 10.35 seconds
+    Running UnrealHeaderTool "C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\NoNameProject.uproject" "C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\NoNameProjectEditor\Development\NoNameProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for NoNameProjectEditor in 23.5832766 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 32 actions with 8 processes...
+    [1/32] SharedPCH.Engine.cpp
+    [2/32] Item.cpp
+    [3/32] NoNameProject.cpp
+    [4/32] OtherDoor.cpp
+    [5/32] NoNameProjectGameModeBase.cpp
+    [6/32] LevelNavigation.cpp
+    [7/32] LightSwitchPushButton.cpp
+    [8/32] Waypoint.cpp
+    [9/32] GameManager.cpp
+    [10/32] Grabber.cpp
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(112): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: vea la declaración de 'UPhysicsHandleComponent::GrabComponent'
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\Grabber.cpp(135): warning C4996: 'UPhysicsHandleComponent::GrabComponent': Please use GrabComponentAtLocation or GrabComponentAtLocationWithRotation Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine/Classes/PhysicsEngine/PhysicsHandleComponent.h(86): note: vea la declaración de 'UPhysicsHandleComponent::GrabComponent'
+    [11/32] Player_Status.cpp
+    [12/32] LightSwitchPushButton.gen.cpp
+    [13/32] AI_Bot_Character.cpp
+    [14/32] Grabber.gen.cpp
+    [15/32] AI_Bot_Character.gen.cpp
+    [16/32] FPSCharacter.cpp
+    [17/32] FPSCharacter.gen.cpp
+    [18/32] GameManager.gen.cpp
+    [19/32] Item.gen.cpp
+    [20/32] NoNameProject.init.gen.cpp
+    [21/32] ItemActor.gen.cpp
+    [22/32] LevelNavigation.gen.cpp
+    [23/32] NoNameProjectGameModeBase.gen.cpp
+    [24/32] OtherDoor.gen.cpp
+    [25/32] Player_Status.gen.cpp
+    [26/32] ItemActor.cpp
+    [27/32] Waypoint.gen.cpp
+    [28/32] AI_Bot_Controller.gen.cpp
+    [29/32] AI_Bot_Controller.cpp
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\AI_Bot_Controller.cpp(48): warning C4458: la declaración de 'Pawn' oculta el miembro de clase
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(66): note: vea la declaración de 'AController::Pawn'
+C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Source\NoNameProject\AI_Bot_Controller.cpp(57): warning C4458: la declaración de 'Character' oculta el miembro de clase
+    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h(76): note: vea la declaración de 'AController::Character'
+    [30/32] UE4Editor-NoNameProject-0001.lib
+       Creando biblioteca C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0001.lib y objeto C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0001.exp
+    [31/32] UE4Editor-NoNameProject-0001.dll
+       Creando biblioteca C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0001.suppressed.lib y objeto C:\Users\ALUMNO\Documents\GitHub\UntitledHorrorGame\NoNameProject\Intermediate\Build\Win64\UE4Editor\Development\NoNameProject\UE4Editor-NoNameProject-0001.suppressed.exp
+    [32/32] NoNameProjectEditor.target
+  Total time in Parallel executor: 69.43 seconds
+  Total execution time: 100.79 seconds
